@@ -1,0 +1,1901 @@
+{
+  "dialogue_id": "q5nc2",
+  "landmark_reference_expressions": [
+    {
+      "ref_id_unif": "q5nc2.ref.0",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_stony_desert@g",
+        "follower": "m9_stony_desert@f"
+      },
+      "reason": "Giver anchors route “starting above the stony desert.” Follower responds with movement (“straight down”), showing uptake. Stony desert exists on both maps, so it’s grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_stony_desert",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the stony desert",
+        "utt_id": 3
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.1",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_stony_desert@g",
+        "follower": "m9_stony_desert@f"
+      },
+      "reason": "Repair/clarification repeats the landmark (“halfway up the stony…”). Follower acknowledges (“right”), continuing from previously grounded reference.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_stony_desert",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the stony",
+        "utt_id": 5
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.2",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_stony_desert@g",
+        "follower": "m9_stony_desert@f"
+      },
+      "reason": "Further specification (“the middle of the stony desert”). Follower says “right,” indicating understanding and continued grounding of the same landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_stony_desert",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the stony desert",
+        "utt_id": 5
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.3",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_stony_desert@g",
+        "follower": "m9_stony_desert@f"
+      },
+      "reason": "Pronoun “it” refers back to the stony desert; follower acknowledges (“right”). The landmark remains grounded from prior mentions.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_stony_desert",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 5
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.4",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_stony_desert@g",
+        "follower": "m9_stony_desert@f"
+      },
+      "reason": "Instruction uses “the bottom of the stony desert.” Follower replies “right straight down,” showing successful grounding to his stony desert.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_stony_desert",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the stony desert",
+        "utt_id": 9
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.5",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m9_waterhole@f"
+      },
+      "reason": "Follower asks about “the waterhole,” intending the waterhole on their map. Giver responds hesitantly and provides no landmark-based reply; giver’s map lacks a waterhole. Thus noticed but not processed/grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m9_waterhole",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the waterhole",
+        "utt_id": 20
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.6",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m9_site_of_plane_crash#0@g",
+        "follower": ""
+      },
+      "reason": "Giver mentions the next obstacle as a plane crash (bottom-left on giver map). Follower only backchannels “mm,” with no confirmation or localization, so it’s noticed but not grounded to a specific landmark on the follower’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m9_site_of_plane_crash",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a plane crash",
+        "utt_id": 27
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.7",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m9_waterhole@f"
+      },
+      "reason": "Follower says they are between a waterhole and a savannah (utt.68). Giver acknowledges but offers instructions only relative to the savannah and has no waterhole on their map, so it is not grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m9_waterhole",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a waterhole",
+        "utt_id": 68
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.8",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_savannah@g",
+        "follower": "m9_savannah@f"
+      },
+      "reason": "Follower mentions a savannah (utt.68). Giver immediately references “the savannah” in instructions (utt.69), indicating successful linking to their savannah.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_savannah",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a savannah",
+        "utt_id": 68
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.9",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_savannah@g",
+        "follower": "m9_savannah@f"
+      },
+      "reason": "Same instruction turn: “don’t go as far along as the savannah.” Previously identified by F (utt68) and acted upon; thus grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_savannah",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the savannah",
+        "utt_id": 69
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.10",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_savannah@g",
+        "follower": "m9_savannah@f"
+      },
+      "reason": "F had just said he’s between a waterhole and a savannah. G instructs “before the savannah…,” F proceeds (utt70). Hence shared, grounded savannah.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_savannah",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the savannah",
+        "utt_id": 69
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.11",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "G: “to the mountain.” F echoes (utt72) and later says it’s parallel to the white mountain (utt78). So G intends Slate Mountain; F uses White Mountain.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_slate_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the mountain",
+        "utt_id": 71
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.12",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "F: “to the mountain.” G immediately continues “up to the top of the mountain” (utt73), interpreting it as Slate Mountain; F’s map corresponds to White Mountain.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the mountain",
+        "utt_id": 72
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.13",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "G: “up to the top of the mountain.” F acknowledges (utt74). Continues same referent: G=Slate Mountain; F=White Mountain.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_slate_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the mountain",
+        "utt_id": 73
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.14",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "G: “opposite the top of the mountain.” F repeats this (utt76). Grounded with the ongoing mountain mismatch (G slate, F white).",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_slate_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the mountain",
+        "utt_id": 75
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.15",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "F checks “opposite the top of the mountain”; G confirms “yeah just at the top” (utt77). Thus grounded; same slate/white mapping.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the mountain",
+        "utt_id": 76
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.16",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "G: “just at the top.” F: “right okay” (utt78). ‘Top’ of the same mountain already in play; G means Slate Mountain, F uses White Mountain.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_slate_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "top",
+        "utt_id": 77
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.17",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_white_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "F: “parallel to the white mountain.” G replies “it’s the slate mountain” (correction) but White Mountain exists on both maps; F clearly links to it.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the white mountain",
+        "utt_id": 78
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.18",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "G clarifies “it’s the slate mountain.” F acknowledges. Despite name mismatch, the shared locus remains the mountain F uses (White Mountain). Treated as grounded via cross-naming.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_slate_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the slate mountain",
+        "utt_id": 79
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.19",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Giver means the slate mountain; follower proceeds from a mountain near round rocks and later states white mountain, so he grounds it to white mountain.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_slate_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the mountain",
+        "utt_id": 85
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.20",
+      "is_quantificational": false,
+      "is_specified": false,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m9_round_rocks@f"
+      },
+      "reason": "Follower mentions round rocks; giver has no such landmark and ignores it, giving different instructions.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unspecified"
+      },
+      "info": {
+        "concept_id": "m9_round_rocks",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the sort of round rocks",
+        "utt_id": 86
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.21",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_hot_wells@g",
+        "follower": "m9_hot_springs@f"
+      },
+      "reason": "Giver refers to hot wells; follower replies that he has hot springs, grounding to his map’s counterpart.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the hot wells",
+        "utt_id": 87
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.22",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Giver says ‘the mountain’ (slate). Follower follows with ‘and then white mountain,’ grounding it to white mountain.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_slate_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the mountain",
+        "utt_id": 87
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.23",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_hot_wells@g",
+        "follower": "m9_hot_springs@f"
+      },
+      "reason": "‘Between the two’ includes hot wells; follower maps it to his hot springs explicitly.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the two",
+        "utt_id": 87
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.24",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "The other member of ‘the two’ is the mountain; follower continues with white mountain, grounding to that.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_slate_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the two",
+        "utt_id": 87
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.25",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_hot_wells@g",
+        "follower": "m9_hot_springs@f"
+      },
+      "reason": "Follower states ‘hot springs I’ve got here’; giver acknowledges, aligning it with his hot wells.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "hot springs",
+        "utt_id": 88
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.26",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Follower proposes white mountain; giver later corrects ‘not the white mountain,’ so the proposal is not accepted/grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "white yeah mountain",
+        "utt_id": 90
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.27",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Follower claims to be at the top of the white mountain; giver immediately rejects this, so it isn’t grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the white mountain",
+        "utt_id": 92
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.28",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": ""
+      },
+      "reason": "Giver denies the previously mentioned white mountain. The follower does not resolve it, so no grounding occurs.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the white up mountain",
+        "utt_id": 93
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.29",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m9_slate_mountain@g",
+        "follower": ""
+      },
+      "reason": "Giver corrects to slate mountain; follower replies vaguely (‘some mountain’) and does not identify slate mountain.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m9_slate_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the slate mountain",
+        "utt_id": 93
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.30",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Follower says “opposite some mountain.” Giver asks for position; no specific landmark is linked yet. Later it’s clarified as the white mountain.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "some mountain",
+        "utt_id": 94
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.31",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_white_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Follower clarifies “opposite a white mountain.” Giver responds “okay,” accepting it. Both link to the white mountain.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a white mountain",
+        "utt_id": 96
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.32",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_white_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Follower adds “the top of the white mountain.” Giver acknowledges. Position is grounded at white mountain.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the white mountain",
+        "utt_id": 96
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.33",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Giver says “down the side of the mountain,” intending slate mountain. Follower proceeds down his mountain (white). Grounded but misaligned.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_slate_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the mountain",
+        "utt_id": 99
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.34",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m9_hot_wells@g",
+        "follower": ""
+      },
+      "reason": "Giver refers to “the hot wells.” Follower immediately says he doesn’t have hot wells, so no grounding on follower map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the hot wells",
+        "utt_id": 99
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.35",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": ""
+      },
+      "reason": "Follower denies existence: “I don’t have hot wells.” Giver acknowledges. This checks/denies existence; no landmark grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "hot wells",
+        "utt_id": 100
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.36",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m9_hot_springs@f",
+        "follower": "m9_hot_springs@f"
+      },
+      "reason": "Follower offers replacement “hot springs.” Giver accepts and later uses the term. This landmark exists only on follower’s map (imagined for giver).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "hot springs",
+        "utt_id": 100
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.37",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Follower: “coming down the mountain.” He means white mountain; giver says “okay,” still assuming slate. Grounded but misaligned.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the mountain",
+        "utt_id": 100
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.38",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_slate_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Follower: “this mountain.” Giver continues instructions without correction, still treating it as slate. Grounded with mismatch.",
+      "extra": {
+        "status": "misunderstood",
+        "subtype": "misunderstood"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "this mountain",
+        "utt_id": 102
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.39",
+      "is_quantificational": false,
+      "is_specified": false,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m9_hot_wells@g",
+        "follower": ""
+      },
+      "reason": "Giver first says “the hot wells,” but immediately repairs to “the hot springs.” Follower’s uptake refers to the repair, not to “hot wells.”",
+      "extra": {
+        "status": "pending",
+        "subtype": "unspecified"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the hot wells",
+        "utt_id": 103
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.40",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_hot_springs@f",
+        "follower": "m9_hot_springs@f"
+      },
+      "reason": "Giver repairs to “the hot springs.” Follower confirms “to the right of it,” grounding to the follower’s hot springs.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the hot springs",
+        "utt_id": 103
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.41",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m9_hot_springs@f",
+        "follower": "m9_hot_springs@f"
+      },
+      "reason": "Follower’s pronoun “it” refers back to hot springs; giver continues with related instruction. Grounded; landmark exists only on speaker’s (follower’s) map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 104
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.42",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_hot_springs@f",
+        "follower": "m9_hot_springs@f"
+      },
+      "reason": "Giver’s “it” continues to denote hot springs. Follower echoes “and underneath,” confirming grounding to hot springs on follower map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 105
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.43",
+      "is_quantificational": false,
+      "is_specified": false,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m9_hot_wells@g",
+        "follower": ""
+      },
+      "reason": "Second “it” in giver’s clause refers to hot wells, which follower lacks; follower’s response continues with hot springs, giving no uptake for hot wells.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unspecified"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 105
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.44",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m9_hot_springs@f",
+        "follower": "m9_hot_springs@f"
+      },
+      "reason": "Follower: “it … I’ve done that,” clearly referring to hot springs; giver then verifies. Grounded; hot springs exist only on follower’s map (imagined for giver).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 106
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.45",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_hot_springs@f",
+        "follower": "m9_hot_springs@f"
+      },
+      "reason": "Giver checks “you underneath it now,” referring to hot springs. Follower answers “yes.” Grounded to hot springs.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_hot_wells",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 107
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.46",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_white_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Giver instructs to head up towards the white mountain. Follower acknowledges immediately. White Mountain exists on both maps and had been previously discussed, so the reference is understood and linked to the follower’s White Mountain.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the white mountain",
+        "utt_id": 117
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.47",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_white_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "G instructs “head fairly close to the side of the white mountain.” F acknowledges (utt.120). White mountain was previously established, so the reference is grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the white mountain",
+        "utt_id": 119
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.48",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_white_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "G says “keep going up ’til you get to the top of the white mountain.” F then confirms reaching it (utt.122). Thus it is accommodated and grounded to the same mountain on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the white mountain",
+        "utt_id": 121
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.49",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_white_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "F reports “I’m at the top,” referring back to the white mountain just mentioned. No repair follows; treat as tacitly grounded to the white mountain on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "top",
+        "utt_id": 122
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.50",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_white_mountain@g",
+        "follower": "m9_white_mountain@f"
+      },
+      "reason": "Giver says “when you're at the top” immediately after follower confirmed being at the top of the white mountain. The landmark is mutually established and on both maps; follower acknowledges instruction.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_white_mountain",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "top",
+        "utt_id": 123
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.51",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "G: “start heading towards the lake.” F immediately asks distance and later arrives at it, indicating correct recognition. Both maps contain a lake.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the lake",
+        "utt_id": 125
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.52",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Pronoun “it” refers to the lake. Shortly after, F confirms arrival at the lake, showing successful grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 129
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.53",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "G asks “are you at it now?”; F replies “I’m at the lake,” confirming comprehension and reference to the lake.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 129
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.54",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "F states “I’m at the lake.” G accepts and continues instructions, so both ground the same landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the lake",
+        "utt_id": 130
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.55",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Follower just said “I’m at the lake.” Giver instructs “go round the outside of the lake,” and follower asks for direction, showing uptake. Same lake exists on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the lake",
+        "utt_id": 131
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.56",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Pronoun “it” refers back to the already established lake. Follower acknowledges with “mmhmm,” indicating successful grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 135
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.57",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Again “it” refers to the lake; giver says not to go right round it. Follower responds “halfway round,” confirming interpretation and grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 137
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.58",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Lake was already mutually established (utt130–137). Instruction mentions going between lake and roman baths; follower challenges only the baths, so lake is grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the lake",
+        "utt_id": 141
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.59",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m9_roman_baths@g",
+        "follower": ""
+      },
+      "reason": "Giver refers to roman baths on giver’s map; follower immediately replies “there is no roman baths,” so the reference is not accommodated or grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m9_roman_baths",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the roman baths",
+        "utt_id": 141
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.60",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": ""
+      },
+      "reason": "Follower denies existence: “there is no roman baths.” Giver accepts (“ah”). This is an existence denial, so no landmark is grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m9_roman_baths",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "no roman baths",
+        "utt_id": 142
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.61",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Giver repeats “the lake” while continuing instructions; follower indicates being halfway round it. Previously grounded reference.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the i'm lake",
+        "utt_id": 145
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.62",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Follower states “I’m halfway round the lake”; giver acknowledges. Shared lake is clearly grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the lake",
+        "utt_id": 144
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.63",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Instruction “go down to the bottom half of the lake.” Follower asks a clarification question, confirming uptake; same lake as before.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the bottom half of the lake",
+        "utt_id": 145
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.64",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Second mention within “bottom half of the lake,” continuing the same grounded lake reference.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the lake",
+        "utt_id": 145
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.65",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Refers to “where you went round the lake.” Follower engages about retracing; lake remains the shared anchor.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the lake",
+        "utt_id": 145
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.66",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Pronoun “it” refers back to the already grounded lake within the same instruction sequence; no misunderstanding indicated.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 145
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.67",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Giver summarizes “you’ve gone halfway round the lake”; follower agrees. The lake remains a grounded landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the lake",
+        "utt_id": 147
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.68",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m9_lake@g",
+        "follower": ""
+      },
+      "reason": "Giver references a specific ‘flat side’ of the lake; follower says “I don’t have a flat side,” so this side cannot be located—reference not accommodated/grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the sort of slightly flat side",
+        "utt_id": 149
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.69",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m9_lake@g",
+        "follower": ""
+      },
+      "reason": "Further attempt describing “the side that’s about an inch of the lake.” Follower again rejects the feature; no grounding achieved.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the side",
+        "utt_id": 149
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.70",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "The phrase “of the lake” itself is unproblematic despite the side description; both share the same lake already.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the lake",
+        "utt_id": 149
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.71",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": ""
+      },
+      "reason": "Follower says “I don’t have a flat side,” denying existence of that feature. Giver accepts; no concrete landmark is grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a flat side",
+        "utt_id": 150
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.72",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Follower reports position “at the bottom of the lake”; giver confirms. This is a grounded reference to the shared lake.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the lake",
+        "utt_id": 152
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.73",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_lake@g",
+        "follower": "m9_lake@f"
+      },
+      "reason": "Giver references “where you started going round the lake”; follower agrees (“yeah”). The lake remains jointly grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the lake",
+        "utt_id": 159
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.74",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_antelope@g",
+        "follower": "m9_antelope@f"
+      },
+      "reason": "G instructs “where the antelopes are” (utt.161). F acknowledges and proceeds (utt.164). Both maps have Antelope, so the reference is understood and grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_antelope",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the antelopes",
+        "utt_id": 161
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.75",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_antelope@g",
+        "follower": "m9_antelope@f"
+      },
+      "reason": "G says “go underneath them” (utt.163), referring back to antelopes. F immediately echoes it (utt.164), confirming uptake; no repair needed.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_antelope",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "them",
+        "utt_id": 163
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.76",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_antelope@g",
+        "follower": "m9_antelope@f"
+      },
+      "reason": "F checks “underneath them” (utt.164). G confirms “yeah” (utt.165). The pronoun resolves to antelopes; grounding achieved.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_antelope",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "them",
+        "utt_id": 164
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.77",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m9_antelope@g",
+        "follower": "m9_antelope@f"
+      },
+      "reason": "G continues “past them” (utt.165), still referring to antelopes. F proceeds to next instruction (utt.166), indicating understanding and grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_antelope",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "them",
+        "utt_id": 165
+      }
+    },
+    {
+      "ref_id_unif": "q5nc2.ref.78",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m9_finish@g",
+        "follower": "m9_finish@g"
+      },
+      "reason": "Giver identifies the destination: “that’s the finish.” Follower replies “okay,” showing uptake. Finish exists only on the giver’s map, so the follower accepts it as an imagined landmark at the instructed location.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m9_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the finish",
+        "utt_id": 169
+      }
+    }
+  ]
+}

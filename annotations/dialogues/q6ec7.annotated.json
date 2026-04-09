@@ -1,0 +1,1853 @@
+{
+  "dialogue_id": "q6ec7",
+  "landmark_reference_expressions": [
+    {
+      "ref_id_unif": "q6ec7.ref.0",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_sandy_shore@g",
+        "follower": ""
+      },
+      "reason": "G asks if F has the sandy shore; F replies “mmhmm.” Presence confirmed and linked on both maps.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_sandy_shore",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the sandy shore",
+        "utt_id": 1
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.1",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_start@g",
+        "follower": ""
+      },
+      "reason": "G checks “you've got the start”; F affirms with “mmhmm,” grounding it to the Start on F’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_start",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the start",
+        "utt_id": 1
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.2",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_well@g",
+        "follower": ""
+      },
+      "reason": "G asks about a well; F answers “no.” The item isn’t linked on F’s map; only exists on G’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_well",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a well",
+        "utt_id": 3
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.3",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_crane_bay@g",
+        "follower": ""
+      },
+      "reason": "G checks “you've got crane bay”; F says “mmhmm,” confirming and grounding it to Crane Bay on F’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_crane_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "crane bay",
+        "utt_id": 5
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.4",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_crane_bay@g",
+        "follower": "m15_crane_bay@f"
+      },
+      "reason": "G instructs “follow crane bay down”; F acknowledges “right.” Previously confirmed, so it’s grounded to Crane Bay on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_crane_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "crane bay",
+        "utt_id": 7
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.5",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_crane_bay@g",
+        "follower": "m15_crane_bay@f"
+      },
+      "reason": "Giver mentions crane bay in “the tip of crane bay.” Follower had confirmed having crane bay earlier and acknowledges here (mmhmm), so both link it to crane bay on their maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_crane_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the tip of crane bay",
+        "utt_id": 9
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.6",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_crane_bay@g",
+        "follower": "m15_crane_bay@f"
+      },
+      "reason": "“the tip of crane bay” further specifies the already-shared landmark. Follower acknowledges, so it’s grounded to crane bay on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_crane_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "crane bay",
+        "utt_id": 9
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.7",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_crane_bay@g",
+        "follower": "m15_crane_bay@f"
+      },
+      "reason": "“the bottom tip” still refers to crane bay’s tip. Prior mutual knowledge of crane bay and follower’s acknowledgment ground it.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_crane_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the bottom tip",
+        "utt_id": 9
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.8",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m15_well@g",
+        "follower": "m15_well@g"
+      },
+      "reason": "Giver says there’s a well; follower earlier said they don’t have a well but acknowledges here, so they accept a giver-only well as reference (imagined on follower’s side).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_well",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a well",
+        "utt_id": 9
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.9",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m15_well@g",
+        "follower": "m15_well@g"
+      },
+      "reason": "Instruction “round the well.” Follower immediately asks “to the left or the right,” showing uptake of this giver-only landmark; grounded as imagined.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_well",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the well",
+        "utt_id": 11
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.10",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_crane_bay@g",
+        "follower": "m15_crane_bay@f"
+      },
+      "reason": "Follower checks “down to the tip…”. Giver responds with correction about distance from the tip, indicating shared reference to the bay’s tip.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_crane_bay",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the tip",
+        "utt_id": 14
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.11",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_crane_bay@g",
+        "follower": "m15_crane_bay@f"
+      },
+      "reason": "Giver says “two centimetres off the tip,” and follower acknowledges. The ‘tip’ is the crane bay tip, grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_crane_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the tip",
+        "utt_id": 15
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.12",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_crane_bay@g",
+        "follower": "m15_crane_bay@f"
+      },
+      "reason": "Follower says “over the bay.” Giver corrects path (“still on land”) but not the landmark, showing the bay is jointly identified and grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_crane_bay",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the bay",
+        "utt_id": 18
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.13",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_local_residents@g",
+        "follower": ""
+      },
+      "reason": "Giver checks existence of ‘houses of local residents’; follower replies “ehm yes,” confirming the landmark on their map. Hence accommodated and grounded to local_residents on both maps.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_local_residents",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the houses of local residents",
+        "utt_id": 25
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.14",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_local_residents@g",
+        "follower": "m15_local_residents@f"
+      },
+      "reason": "Pronoun “it” refers back to the previously confirmed ‘local residents’. Follower acknowledges (“er right … yes”). Treated as tacitly grounded to the same landmark on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_local_residents",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 27
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.15",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_local_residents@g",
+        "follower": "m15_local_residents@f"
+      },
+      "reason": "Second pronoun “it” again refers to ‘local residents’; follower acknowledges. Implicit reuse of the grounded landmark; thus accommodated and grounded to local_residents.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_local_residents",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 27
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.16",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_iron_bridge@f",
+        "follower": ""
+      },
+      "reason": "G asks about existence of a bridge; F replies “yes.” Existence check, successfully processed. The confirmation links to the single iron bridge on the follower’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_iron_bridge",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a bridge",
+        "utt_id": 29
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.17",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_iron_bridge@f",
+        "follower": "m15_iron_bridge@f"
+      },
+      "reason": "“the bridge” refers back to the just-confirmed landmark; G instructs to cross it and F acknowledges. Implicit reuse grounds it to the iron bridge on follower’s map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_iron_bridge",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the bridge",
+        "utt_id": 31
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.18",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_wood@g",
+        "follower": "m15_woodland@f"
+      },
+      "reason": "Follower asks “is the woodland there?” Giver replies “yes… from the wood,” mapping it to their Wood. Hence both sides ground the same landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_wood",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the woodland",
+        "utt_id": 34
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.19",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_wood@g",
+        "follower": "m15_woodland@f"
+      },
+      "reason": "Pronoun “it” co-refers to the woodland in the same question. Giver’s affirmative reply and distance info ground it as Wood/ Woodland pair.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_wood",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 34
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.20",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_wood@g",
+        "follower": "m15_woodland@f"
+      },
+      "reason": "Giver states “you’re about three centimetres away from the wood.” Follower acknowledges, linking Giver’s Wood to Follower’s Woodland.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_wood",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the wood",
+        "utt_id": 35
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.21",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_forked_stream@g",
+        "follower": ""
+      },
+      "reason": "Giver asks if follower has the forked stream; follower replies yes and later elaborates. Giver means forked_stream@g; follower links to their gurgling_brook@f.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_forked_stream",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the forked stream",
+        "utt_id": 37
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.22",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_forked_stream@g",
+        "follower": "m15_gurgling_brook@f"
+      },
+      "reason": "Follower asserts “there’s a stream,” continuing the thread; giver acknowledges and proceeds. Each links to their map’s corresponding stream.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_forked_stream",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a stream",
+        "utt_id": 38
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.23",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_forked_stream@g",
+        "follower": "m15_gurgling_brook@f"
+      },
+      "reason": "Follower specifies the stream has a fork; giver acknowledges. Shared grounding persists: giver’s forked_stream@g vs follower’s gurgling_brook@f.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_forked_stream",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a fork",
+        "utt_id": 38
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.24",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_forked_stream@g",
+        "follower": "m15_gurgling_brook@f"
+      },
+      "reason": "Giver restarts “the f–” referring back to the previously established stream; follower acknowledges. Continued grounded reuse.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_forked_stream",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the f--",
+        "utt_id": 39
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.25",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_forked_stream@g",
+        "follower": "m15_gurgling_brook@f"
+      },
+      "reason": "Instruction “…touch the forked stream”; follower acknowledges. Reference remains grounded to the same mapped features.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_forked_stream",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the forked stream",
+        "utt_id": 39
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.26",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_forked_stream@g",
+        "follower": "m15_gurgling_brook@f"
+      },
+      "reason": "Further instruction “…curve round with the forked stream”; continued acknowledgements imply maintained grounding to the same stream on each map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_forked_stream",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the forked stream",
+        "utt_id": 39
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.27",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_forked_stream@g",
+        "follower": "m15_gurgling_brook@f"
+      },
+      "reason": "Giver says “…top of the fork”; follower says “right.” The fork belongs to the already grounded stream pair (forked_stream@g vs gurgling_brook@f).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_forked_stream",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the fork",
+        "utt_id": 41
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.28",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_dead_tree@g",
+        "follower": ""
+      },
+      "reason": "G checks existence of a dead tree; F answers “mmhmm.” It’s a yes/no check without locating it, so not grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_dead_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a dead tree",
+        "utt_id": 43
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.29",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_farmed_land#1@g",
+        "follower": ""
+      },
+      "reason": "G asks if there is farmed land (intending the patch near the dead tree). F hesitates and later mentions different farmed land; the query is not aligned/grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_farmed_land",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "farmed land",
+        "utt_id": 45
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.30",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_farmed_land#1@g",
+        "follower": ""
+      },
+      "reason": "G refines the previous query (“to the right”). F still hesitates and does not align; no specific landmark is established.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_farmed_land",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "to",
+        "utt_id": 47
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.31",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_farmed_land#0@g",
+        "follower": "m15_farmed_land#0@f"
+      },
+      "reason": "F states “my farmed land’s right down the bottom of the page.” G acknowledges then rejects for routing, but both link to the bottom farmed land.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_farmed_land",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "my farmed right land's",
+        "utt_id": 48
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.32",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_dead_tree@g",
+        "follower": "m15_dead_tree@f"
+      },
+      "reason": "Within an instruction, G uses “where the dead tree is”; F replies “right.” The dead tree is uniquely identifiable on both maps, so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_dead_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the dead tree",
+        "utt_id": 49
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.33",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_forked_stream@g",
+        "follower": "m15_gurgling_brook@f"
+      },
+      "reason": "G mentions “the stream.” F had confirmed the forked stream earlier and accepts here; on F’s map this corresponds to the gurgling brook segment near the dead tree.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_forked_stream",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the stream",
+        "utt_id": 49
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.34",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m15_farmed_land#1@g",
+        "follower": "m15_farmed_land#1@g"
+      },
+      "reason": "G asserts “there’s farmed land” by the dead tree; F accepts. That patch exists only on G’s map, so the follower accommodates it as an imagined landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_farmed_land",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "farmed land",
+        "utt_id": 49
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.35",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_dead_tree@g",
+        "follower": "m15_dead_tree@f"
+      },
+      "reason": "Giver uses the dead tree as a reference for alignment; follower replies “right.” Dead tree had been previously confirmed. Hence both link it to the dead tree on their maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_dead_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the dead tree",
+        "utt_id": 51
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.36",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_dead_tree@g",
+        "follower": "m15_dead_tree@f"
+      },
+      "reason": "Instruction “right below the dead tree” receives “right” and immediate discussion of crossing nearby stream, indicating the follower is oriented to the specific dead tree on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_dead_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the dead tree",
+        "utt_id": 53
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.37",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_forked_stream@g",
+        "follower": "m15_gurgling_brook@f"
+      },
+      "reason": "Follower states “I have to jump a stream”; giver confirms (“yeah… no bridge”). Both link this to the known stream near the dead tree (forked stream/gurgling brook).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_forked_stream",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a stream",
+        "utt_id": 54
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.38",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_lagoon@g",
+        "follower": ""
+      },
+      "reason": "G asks if a lagoon exists; F answers yes. Both maps have a lagoon, so the referent is linked on F’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_lagoon",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a lagoon",
+        "utt_id": 58
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.39",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m15_treasure_buried_here@f"
+      },
+      "reason": "F introduces buried treasure; G responds “do you?”. The landmark exists only on F’s map, so G cannot ground it.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m15_treasure_buried_here",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "buried treasure",
+        "utt_id": 61
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.40",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "",
+        "follower": "m15_treasure_buried_here@f"
+      },
+      "reason": "G asks where the previously mentioned treasure is; F provides its location. Grounded on F’s map; G has no corresponding landmark.",
+      "extra": {
+        "status": "pending",
+        "subtype": "speaker_query"
+      },
+      "info": {
+        "concept_id": "m15_treasure_buried_here",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the buried treasure",
+        "utt_id": 64
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.41",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m15_treasure_buried_here@f"
+      },
+      "reason": "F says “it’s …” referring to the treasure and gives its position; G acknowledges. Since G’s map lacks this item, it isn’t grounded for G.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m15_treasure_buried_here",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it's",
+        "utt_id": 65
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.42",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_lagoon@g",
+        "follower": "m15_lagoon@f"
+      },
+      "reason": "F uses “the lagoon” to specify the treasure’s position; G immediately accepts and continues instructions. Both have a lagoon, so it’s grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_lagoon",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the lagoon",
+        "utt_id": 65
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.43",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_lagoon@g",
+        "follower": "m15_lagoon@f"
+      },
+      "reason": "G instructs using “where it actually says lagoon”; F says “right”. Both maps contain the lagoon label, so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_lagoon",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "says lagoon",
+        "utt_id": 66
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.44",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "",
+        "follower": "m15_treasure_buried_here@f"
+      },
+      "reason": "G asks if the path will miss the buried treasure; F confirms. The referent is the treasure on F’s map, grounded for F; G lacks it.",
+      "extra": {
+        "status": "pending",
+        "subtype": "speaker_query"
+      },
+      "info": {
+        "concept_id": "m15_treasure_buried_here",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the buried treasure",
+        "utt_id": 68
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.45",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_lagoon@g",
+        "follower": "m15_lagoon@f"
+      },
+      "reason": "The giver instructs “’til you reach the lagoon.” Lagoon had been confirmed earlier and discussed; follower acknowledges with “right,” grounding it to their lagoon.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_lagoon",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the lagoon",
+        "utt_id": 72
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.46",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_lagoon@g",
+        "follower": "m15_lagoon@f"
+      },
+      "reason": "“the bottom of the lagoon” refers to the same landmark’s lower part. The lagoon was already mutually established; follower acknowledges the instruction, indicating grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_lagoon",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the lagoon",
+        "utt_id": 72
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.47",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_lagoon@g",
+        "follower": "m15_lagoon@f"
+      },
+      "reason": "Pronoun “it” anaphorically refers to the lagoon just mentioned. Follower replies “right,” showing successful uptake and grounding to their lagoon.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_lagoon",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 72
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.48",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_green_bay@g",
+        "follower": ""
+      },
+      "reason": "G asks if F has green bay; F says mmhmm. Existence is confirmed and both link it to Green Bay on their maps.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "green bay",
+        "utt_id": 74
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.49",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "G instructs toward the edge of Green Bay; F acknowledges. The reference is to Green Bay on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the edge of green bay",
+        "utt_id": 76
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.50",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "Second mention inside ‘the edge of green bay’; F acknowledges. Same landmark grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "green bay",
+        "utt_id": 76
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.51",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "‘the land of the top left one’ specifies part of Green Bay; F acknowledges, so Green Bay is grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the land",
+        "utt_id": 76
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.52",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "G says ‘bit point of land’ at Green Bay area; F replies ‘right’. Treated as the Green Bay tip.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "bit point of land",
+        "utt_id": 78
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.53",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m15_rock_fall@g",
+        "follower": ""
+      },
+      "reason": "G introduces a rock fall above Green Bay; F says ‘right’ but later asks its location, so not grounded yet.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m15_rock_fall",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a rock fall",
+        "utt_id": 78
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.54",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "‘above green bay’—F acknowledges. Green Bay is already shared and linked on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "green bay",
+        "utt_id": 78
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.55",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m15_rock_fall@g",
+        "follower": ""
+      },
+      "reason": "G continues reference to the rock fall (‘like …’). F later requests clarification; still not grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m15_rock_fall",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "like",
+        "utt_id": 80
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.56",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "‘the wee dent’ in Green Bay; F says mmhmm, linking to Green Bay feature.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the wee dent",
+        "utt_id": 80
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.57",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "Continuation ‘see the dent’; F acknowledges, grounding to Green Bay.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the mmhmm dent",
+        "utt_id": 80
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.58",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_lagoon@g",
+        "follower": "m15_lagoon@f"
+      },
+      "reason": "‘the tip of lagoon’; F mmhmm. Both maps have the lagoon; grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_lagoon",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the tip of lagoon",
+        "utt_id": 82
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.59",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_lagoon@g",
+        "follower": "m15_lagoon@f"
+      },
+      "reason": "Nested lagoon mention in ‘tip of lagoon’; acknowledged and grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_lagoon",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "lagoon",
+        "utt_id": 82
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.60",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "‘tip of green bay’; although no fresh acknowledgment, Green Bay was already grounded and reused implicitly.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the tip of green bay",
+        "utt_id": 84
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.61",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "Nested repetition of Green Bay in same instruction; treated as implicitly grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "green bay",
+        "utt_id": 84
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.62",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_rock_fall@g",
+        "follower": ""
+      },
+      "reason": "‘avoiding the rock fall’ triggers F’s immediate question ‘where’s the rock fall’; hence not accommodated/grounded yet.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m15_rock_fall",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rock fall",
+        "utt_id": 84
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.63",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_rock_fall@g",
+        "follower": ""
+      },
+      "reason": "F asks ‘so where’s the rock fall’; G understands and answers. Addressee (G) grounds it to the rock fall on G’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "speaker_query"
+      },
+      "info": {
+        "concept_id": "m15_rock_fall",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the rock fall",
+        "utt_id": 85
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.64",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_rock_fall@g",
+        "follower": ""
+      },
+      "reason": "Pronoun ‘it’ in F’s question refers to the rock fall; G receives and grounds it on the G map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "speaker_query"
+      },
+      "info": {
+        "concept_id": "m15_rock_fall",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 85
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.65",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "G: ‘wee curvy bit in green bay’; F mmhmm. Reference is to Green Bay, grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the wee curvy bit",
+        "utt_id": 86
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.66",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "Explicit ‘in green bay’ with acknowledgment; Green Bay grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "green bay",
+        "utt_id": 86
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.67",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m15_rock_fall@g",
+        "follower": "m15_rock_fall@g"
+      },
+      "reason": "G states extent of the rock fall; F then reasons about avoiding it. Grounded to the rock fall, which exists only on G’s map (imagined for F).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_rock_fall",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rock fall",
+        "utt_id": 90
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.68",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_rock_fall@g",
+        "follower": ""
+      },
+      "reason": "F’s confirmation question uses ‘it’ for the rock fall; G confirms. Addressee (G) grounds it to the rock fall on G’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "speaker_query"
+      },
+      "info": {
+        "concept_id": "m15_rock_fall",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 91
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.69",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "Final instruction ‘to the point’ refers to the point of Green Bay; F acknowledges, grounding it to Green Bay.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the point",
+        "utt_id": 96
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.70",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m15_pirate_ship@g",
+        "follower": ""
+      },
+      "reason": "G asks if F has the pirate ship; F replies “mmhmm.” This confirms existence and links to the unique pirate ship on both maps.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m15_pirate_ship",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the pirate ship",
+        "utt_id": 98
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.71",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_pirate_ship@g",
+        "follower": "m15_pirate_ship@f"
+      },
+      "reason": "G instructs to go until reaching the tip of the pirate ship; F engages with a clarification and later repeats “pirate ship,” indicating successful grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_pirate_ship",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the tip of the pirate ship",
+        "utt_id": 100
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.72",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_pirate_ship@g",
+        "follower": "m15_pirate_ship@f"
+      },
+      "reason": "“the tip of the pirate ship” further specifies the destination. F continues and later confirms the pirate ship, so the reference is understood and grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_pirate_ship",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the pirate ship",
+        "utt_id": 100
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.73",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "F checks “so across the bay”; G confirms “yeah through the water.” Both align on Green Bay.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the bay",
+        "utt_id": 101
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.74",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_green_bay@g",
+        "follower": "m15_green_bay@f"
+      },
+      "reason": "G clarifies “through the water,” referring to Green Bay. F proceeds with the instruction (“so I just go straight down”), showing understanding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_green_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the water",
+        "utt_id": 102
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.75",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_pirate_ship@g",
+        "follower": "m15_pirate_ship@f"
+      },
+      "reason": "G echoes “ship” during alignment. F acknowledges (“right okay”). The pirate ship had just been established, so the reference remains grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_pirate_ship",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the right pirate pirate ship ship",
+        "utt_id": 104
+      }
+    },
+    {
+      "ref_id_unif": "q6ec7.ref.76",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m15_pirate_ship@g",
+        "follower": "m15_pirate_ship@f"
+      },
+      "reason": "F repeats “pirate ship” as confirmation; G echoes it. Mutual confirmation grounds the reference to the pirate ship on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m15_pirate_ship",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "pirate pirate ship",
+        "utt_id": 105
+      }
+    }
+  ]
+}

@@ -1,0 +1,4061 @@
+{
+  "dialogue_id": "q4nc8",
+  "landmark_reference_expressions": [
+    {
+      "ref_id_unif": "q4nc8.ref.0",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Follower checks existence: “you’ve got a diamond mine.” Giver confirms next turn. Both link to the diamond mine on their maps.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a diamond mine",
+        "utt_id": 2
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.1",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m10_diamond_mine@g",
+        "follower": ""
+      },
+      "reason": "Giver confirms the queried landmark: “I’ve got a diamond mine.” Follower acknowledges; shared landmark grounded on both maps.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a diamond mine",
+        "utt_id": 3
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.2",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Instruction to move to the “d” of the diamond mine label. Follower acknowledges; reference tied to the mine label on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the \"d\"",
+        "utt_id": 5
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.3",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "“Down the side of the diamond mine.” Follower says OK, indicating successful grounding to the mine.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the diamond mine",
+        "utt_id": 7
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.4",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "“to the ‘d’ of …” continues instruction. Subsequent follower check “just below it” shows understanding; grounded at the mine label.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the \"d\" of diamond mine",
+        "utt_id": 9
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.5",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "The embedded “diamond mine” in “the ‘d’ of diamond mine.” Follower’s later reference to “it” confirms grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "diamond mine",
+        "utt_id": 9
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.6",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Follower’s “just below it” refers to the already introduced diamond mine; giver immediately confirms “just below it yeah,” so the reference is understood and grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 10
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.7",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Giver repeats “just below it” confirming the same diamond mine; follower proceeds without repair, so the pronoun is tacitly grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 11
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.8",
+      "is_quantificational": false,
+      "is_specified": false,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m10_diamond_mine@g",
+        "follower": ""
+      },
+      "reason": "Giver starts “a line underneath diamond mine,” but follower interrupts with pen trouble (“hold on …”); no uptake of the landmark here.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unspecified"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "diamond hold on mine",
+        "utt_id": 13
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.9",
+      "is_quantificational": false,
+      "is_specified": false,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Follower’s “it’s working” concerns the pen, not the landmark; no interpretation of the diamond mine occurs.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unspecified"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it's",
+        "utt_id": 14
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.10",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Giver restates “underline diamond mine”; follower responds “underline it right,” showing understanding and grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "diamond mine",
+        "utt_id": 15
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.11",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Follower says “underline it right,” clearly referring to the diamond mine; giver continues, so it is accommodated and grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 16
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.12",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Follower adds “along to the ‘e’”; giver repeats the same instruction, indicating successful uptake relative to the diamond mine.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the \"e\"",
+        "utt_id": 16
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.13",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Follower clarifies “of diamond”; giver continues without correction, so this specification is accepted and grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "diamond",
+        "utt_id": 18
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.14",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Giver repeats “underline it”; the referent (diamond mine) was already grounded, so this reuse is tacitly grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 19
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.15",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Another immediate repetition “underline it”; continues the already grounded reference to the diamond mine.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 19
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.16",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Giver adds “along to the ‘e’”; after follower’s prior “of diamond,” both are aligned on the diamond mine, so this is grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the \"e\"",
+        "utt_id": 19
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.17",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Giver instructs to be below the “h” (of highest viewpoint). Follower immediately completes “of highest viewpoint” and later reports position relative to the “h”, showing grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the \"h\" of highest of viewpoint highest viewpoint",
+        "utt_id": 23
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.18",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Follower echoes “of highest viewpoint” as a check; giver confirms by saying “highest viewpoint.” Shared and grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "highest of viewpoint",
+        "utt_id": 24
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.19",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Giver repeats “highest viewpoint.” The referent is already established; follower continues the task, so it remains grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "highest viewpoint",
+        "utt_id": 25
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.20",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Instruction “towards the ‘h’.” Follower later acknowledges and refers to being near the ‘h’, confirming grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the \"h\"",
+        "utt_id": 29
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.21",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Instruction “stop at the ‘h’.” Follower acknowledges and subsequently references the ‘h’, so it’s grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the \"h\"",
+        "utt_id": 29
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.22",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Giver says “underneath the ‘h’ don’t.” Follower replies “okay” and later states location relative to the ‘h’; grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the \"h\"",
+        "utt_id": 31
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.23",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Follower reports “two centimetres from the ‘h’.” Giver confirms “yeah you’re below the ‘h’,” so it’s grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the \"h\"",
+        "utt_id": 36
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.24",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Follower adds “below it,” anaphor to the ‘h’/highest viewpoint. Giver confirms; thus grounded to the same landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 36
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.25",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Giver confirms follower is below the “h” of highest viewpoint; follower acknowledges. Both maps have Highest Viewpoint.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the below \"h\"",
+        "utt_id": 37
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.26",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": ""
+      },
+      "reason": "Giver instructs “go straight up to the seagulls”; follower immediately asks “which one,” showing unresolved reference.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the seagulls",
+        "utt_id": 37
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.27",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Follower repeats the target; giver responds with clarification. Giver links it to the feature near Highest Viewpoint.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the seagulls",
+        "utt_id": 40
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.28",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Follower asks “which one”; giver explains location (“seagulls on the top left of the mountain”), thereby anchoring it to Highest Viewpoint.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "one",
+        "utt_id": 40
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.29",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Follower proposes “the top one”; giver continues clarifying. Reference is maintained to the feature by Highest Viewpoint.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the top one",
+        "utt_id": 40
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.30",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Giver explains “there’s seagulls on the top left…”; follower says “okay,” indicating understanding tied to Highest Viewpoint.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "there's seagulls",
+        "utt_id": 41
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.31",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Giver refers to “the mountain” in that description; follower acknowledges. This is the Highest Viewpoint landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the mountain",
+        "utt_id": 41
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.32",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Giver says “skirting the ‘h’”; ‘h’ of Highest Viewpoint had been previously coordinated; follower acknowledges.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the \"h\"",
+        "utt_id": 41
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.33",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Giver reiterates “go straight up to the seagulls”; follower replies “okay.” The target is the Highest Viewpoint area on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the seagulls",
+        "utt_id": 41
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.34",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Follower checks “over the top of the hill”; giver confirms “the top of the mountain yeah.” Both align this with the highest viewpoint on their maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the over hill",
+        "utt_id": 44
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.35",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Giver affirms “the top of the mountain yeah” in response to follower’s check; follower proceeds, indicating successful grounding at the highest viewpoint.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the mountain",
+        "utt_id": 45
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.36",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Follower asks “to the other two wee seagulls”; earlier both used seagulls by the mountain; giver replies “yeah,” grounding it at the highest viewpoint.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "two wee seagulls",
+        "utt_id": 46
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.37",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Giver warns “miss the mountain”; follower replies “okay.” The mountain corresponds to the highest viewpoint on both maps, so it is grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the mountain",
+        "utt_id": 51
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.38",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m10_safari_truck@g",
+        "follower": ""
+      },
+      "reason": "Giver asks existence of a safari truck; follower answers yes. No particular location linked yet.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a safari truck",
+        "utt_id": 53
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.39",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m10_safari_truck@g",
+        "follower": ""
+      },
+      "reason": "Giver confirms safari truck; follower elaborates its position (“below an overgrown gully”), grounding the same truck on their map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a safari truck",
+        "utt_id": 55
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.40",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Follower says the truck is “below…”, referring back to the safari truck; giver acknowledges (“right”), so both are aligned on the truck.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "below",
+        "utt_id": 56
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.41",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m10_overgrown_gully@f"
+      },
+      "reason": "Follower introduces an overgrown gully; giver acknowledges but later admits not having one, so addressee does not ground it.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_overgrown_gully",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "an overgrown gully",
+        "utt_id": 56
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.42",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m10_overgrown_gully@f"
+      },
+      "reason": "Follower starts checking whether giver has an overgrown gully; giver does not answer and shifts topic, so no uptake/grounding.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_overgrown_gully",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "an where's overg--",
+        "utt_id": 58
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.43",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@f",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Giver asks location of follower’s field station; follower provides description, so the reference is grounded to follower’s field station.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "your field station",
+        "utt_id": 59
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.44",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@f",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Follower echoes “my field station” while preparing to answer; subsequent exchange continues about that station, indicating grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "my field station",
+        "utt_id": 60
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.45",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@f",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Follower locates their field station (“across from the safari truck”); giver follows up, so it’s grounded to the follower’s station.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "across",
+        "utt_id": 60
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.46",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Truck used as anchor in follower’s description; giver continues discussion, showing shared grounding of the truck.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the safari truck",
+        "utt_id": 60
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.47",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@f",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Giver pronominally refers to follower’s field station (“it”); follower elaborates its position, grounding the same entity.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it's",
+        "utt_id": 61
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.48",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@f",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Follower continues describing the field station’s position; giver accepts later (‘it’s up slightly’), so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "virtually",
+        "utt_id": 62
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.49",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@f",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Giver restates position of the same field station; follower confirms (“aye”), maintaining grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it's",
+        "utt_id": 63
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.50",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Instruction to drop towards the safari truck; follower acknowledges and asks about side, showing shared reference.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the safari truck",
+        "utt_id": 67
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.51",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Follower’s clarification question uses the safari truck as the anchor; discussion continues about its right-hand side.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the safari truck",
+        "utt_id": 68
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.52",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Follower uses pronoun ‘it’ for the truck; giver immediately describes its features (“steering wheel”), indicating grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 72
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.53",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Giver explicitly mentions the safari truck while explaining features; follower aligns, so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the safari truck",
+        "utt_id": 73
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.54",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Giver uses pronoun ‘it’ for the truck in the same explanation; follower aligns to right-hand side.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it it",
+        "utt_id": 73
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.55",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Giver describes the truck’s ‘steering wheel’; follower acknowledges; they are clearly pointing to the same truck.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a steering wheel",
+        "utt_id": 73
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.56",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Reference to the right-hand side of the truck; follower repeats ‘right-hand side,’ indicating grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "side",
+        "utt_id": 73
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.57",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Giver asks ‘can you see it?’ about the truck part; follower immediately queries its appearance, showing shared reference.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 75
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.58",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Follower’s ‘is it … handlebar’ clearly targets the truck; giver replies with ‘right-hand wheel,’ grounding it.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 76
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.59",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Giver says ‘the right-hand …’; follower answers ‘yes’; the truck part is grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the thing right-hand",
+        "utt_id": 77
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.60",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "‘The right-hand wheel’ continues the same referent; follower says ‘yes,’ confirming grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the right-hand wheel",
+        "utt_id": 77
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.61",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Giver: ‘drop down towards that’ (the wheel). Follower: ‘right okay’. Shared grounding to the truck.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "that",
+        "utt_id": 79
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.62",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Instruction ‘stop just above the safari truck’; conversation continues with that anchor, so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the safari am i truck",
+        "utt_id": 81
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.63",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Follower reports position relative to the highest viewpoint; giver affirms (‘yeah uh-huh’), grounding it.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the highest viewpoint",
+        "utt_id": 84
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.64",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m10_overgrown_gully@f"
+      },
+      "reason": "Follower says they’d pass ‘an overgrown gully’; giver acknowledges but later states he doesn’t have one, so addressee doesn’t ground it.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_overgrown_gully",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "an overgrown gully",
+        "utt_id": 86
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.65",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_overgrown_gully@f",
+        "follower": "m10_overgrown_gully@f"
+      },
+      "reason": "Giver instructs ‘skirt the overgrown gully’; follower accepts and queries direction, grounding to their gully.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_overgrown_gully",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the overgrown gully",
+        "utt_id": 87
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.66",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m10_overgrown_gully@f"
+      },
+      "reason": "Follower asks ‘skirt it to the left or right’; giver replies he doesn’t have an overgrown gully, so he can’t ground it.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_overgrown_gully",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 90
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.67",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": ""
+      },
+      "reason": "Giver denies existence on his map (‘I don’t have an overgrown gully’); follower says ‘okay’. No grounding possible on giver’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_overgrown_gully",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "an overgrown gully",
+        "utt_id": 91
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.68",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_overgrown_gully@f",
+        "follower": "m10_overgrown_gully@f"
+      },
+      "reason": "Giver: ‘skirt it’—pronoun refers to the gully; follower acknowledges; as addressee, they ground it on their map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_overgrown_gully",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 93
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.69",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Within ‘right-hand wheel of the safari truck’, the truck serves as anchor; follower acknowledges, so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the right-hand wheel of the safari truck",
+        "utt_id": 93
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.70",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Continuation of the same NP (‘right-hand wheel of the safari truck’); both parties aligned on the truck.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the safari truck",
+        "utt_id": 93
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.71",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Follower refers to the small ‘t’ handlebar near the truck wheel; giver confirms ‘yeah that one,’ grounding to the truck.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "that wee \"t\" sort of handlebar type thing",
+        "utt_id": 90
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.72",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Follower checks ‘of the safari truck’; giver affirms earlier and continues; the truck is shared and grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the safari yeah that one truck",
+        "utt_id": 96
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.73",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Giver says ‘got it’ referring to the truck context; follower replies ‘I know where I’m going’, maintaining grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 97
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.74",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@g",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Follower says “directly in line with the field station”; giver replies “right.” This reuses the earlier aligned field station location, so both link to the same field station (#1).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the field station",
+        "utt_id": 104
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.75",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@g",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Giver instructs “head towards the field station”; follower acknowledges. Field station had been previously established; thus tacitly grounded to the shared #1 position.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the field station",
+        "utt_id": 105
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.76",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Instruction “directly below the ‘t’ of highest viewpoint”; follower: “right okay.” Both can locate the single highest viewpoint on their maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the \"t\" of highest viewpoint",
+        "utt_id": 105
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.77",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Continuation of “the ‘t’ of highest viewpoint.” Follower acknowledges, indicating correct grounding to highest viewpoint.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "highest viewpoint",
+        "utt_id": 105
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.78",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": "m10_highest_viewpoint@f"
+      },
+      "reason": "Repair/confirmation “’t’ of highest”; follower accepts. Reference remains the same single highest viewpoint.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "\"t\" of highest",
+        "utt_id": 105
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.79",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Follower: “at the other side of the safari truck”; giver: “yeah.” Clear grounding to the safari truck on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the safari truck",
+        "utt_id": 112
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.80",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Pronoun “it” refers back to the safari truck; giver acknowledges. Grounded to the same truck.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 112
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.81",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Follower: “a centimetre away from there,” referring to the safari truck; giver: “yeah fine.” Grounded to the truck landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "there",
+        "utt_id": 114
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.82",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Follower restates location: “the safari truck.” Giver paraphrases location next; hence grounded to the truck.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the safari at the l-- truck",
+        "utt_id": 120
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.83",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Pronoun “it” in “top left-hand corner of it” refers to the safari truck; giver accepts with “right okay.” Grounded to the truck.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 122
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.84",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_safari_truck@g",
+        "follower": "m10_safari_truck@f"
+      },
+      "reason": "Follower says “under ‘t’” while discussing location at the safari truck. Giver does not challenge and continues, so it’s tacitly grounded to the shared safari truck.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "\"t\"",
+        "utt_id": 124
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.85",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": ""
+      },
+      "reason": "Giver asks, “you don’t have a field station in the middle do you” – a presence check. Follower replies; no specific landmark is identified.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a field station",
+        "utt_id": 125
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.86",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": ""
+      },
+      "reason": "Follower answers, “no I don’t,” denying existence of a middle field station; hence not grounded to any landmark.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "don't",
+        "utt_id": 126
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.87",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_banana_tree@g",
+        "follower": "m10_banana_tree@f"
+      },
+      "reason": "Follower asserts “I’ve got a banana tree.” Giver accepts and immediately gives instructions using it, grounding it on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a a banana banana tree",
+        "utt_id": 128
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.88",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": ""
+      },
+      "reason": "Giver’s “a banana tree” completes a yes/no query about its existence. Not tied to a specific landmark within this RE.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a banana banana tree tree",
+        "utt_id": 129
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.89",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_banana_tree@g",
+        "follower": "m10_banana_tree@f"
+      },
+      "reason": "Instruction: “drop down … level with the top of the leaves of the banana tree.” Follower acknowledges and proceeds, grounding the banana tree.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the leaves of the banana tree",
+        "utt_id": 131
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.90",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_banana_tree@g",
+        "follower": "m10_banana_tree@f"
+      },
+      "reason": "Nested mention “the banana tree” within the same instruction; follower accepts and acts, so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the banana tree",
+        "utt_id": 131
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.91",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_banana_tree@g",
+        "follower": "m10_banana_tree@f"
+      },
+      "reason": "Giver: “the banana tree is on your left.” Follower says okay and continues; clearly linked to the banana tree on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the banana tree",
+        "utt_id": 133
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.92",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_banana_tree@g",
+        "follower": "m10_banana_tree@f"
+      },
+      "reason": "Further instruction referencing “top leaves of the banana tree”; follower replies “okay,” indicating successful grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the top leaves of the banana tree",
+        "utt_id": 137
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.93",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_banana_tree@g",
+        "follower": "m10_banana_tree@f"
+      },
+      "reason": "Same instruction as ref.92; follower acknowledges. Banana tree is the shared anchor point on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the banana tree",
+        "utt_id": 137
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.94",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_banana_tree@g",
+        "follower": "m10_banana_tree@f"
+      },
+      "reason": "Giver instructs “round the top of the banana”; follower acknowledges and continues planning the line. Both maps have a banana tree, so the RE is grounded to that landmark on each map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the banana",
+        "utt_id": 139
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.95",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_banana_tree@g",
+        "follower": "m10_banana_tree@f"
+      },
+      "reason": "Giver repeats “around the top of the banana tree”; follower replies “okay”. Shared banana tree is clearly the referent and is grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the banana tree",
+        "utt_id": 143
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.96",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_banana_tree@g",
+        "follower": "m10_banana_tree@f"
+      },
+      "reason": "Follower says “side of it” after banana tree was established; giver immediately confirms going down its side.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 148
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.97",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_banana_tree@g",
+        "follower": "m10_banana_tree@f"
+      },
+      "reason": "Giver clarifies “we’re going down the side”; follower echoes “going south down the side,” confirming the banana tree.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "side",
+        "utt_id": 149
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.98",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m10_gold_mine@g",
+        "follower": ""
+      },
+      "reason": "Giver checks existence: “have you got a gold mine”; follower denies. Existence query only, no specific location linked.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_gold_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a gold mine",
+        "utt_id": 151
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.99",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": ""
+      },
+      "reason": "Follower denies having a gold mine; giver acknowledges. Denial of existence; no landmark identified on follower’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_gold_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "haven't",
+        "utt_id": 152
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.100",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m10_rock_fall@g",
+        "follower": ""
+      },
+      "reason": "Giver asks “have you got a rock fall at the bottom”; follower confirms. Still an existence check, not yet tied to a place.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m10_rock_fall",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a rock fall",
+        "utt_id": 153
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.101",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rock_fall@g",
+        "follower": "m10_rock_fall@f"
+      },
+      "reason": "Instruction “come down nearly to the top of the rock fall”; subsequent dialogue aligns on this landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rock_fall",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rock fall",
+        "utt_id": 155
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.102",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rock_fall@g",
+        "follower": "m10_rock_fall@f"
+      },
+      "reason": "Giver reiterates “nearly to the top of the rock fall”; follower relates it to start/diamond; giver agrees.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rock_fall",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rock fall",
+        "utt_id": 159
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.103",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_start@g",
+        "follower": "m10_start@f"
+      },
+      "reason": "Follower references “the start”; giver confirms “yeah that’s right,” indicating shared grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_start",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the start",
+        "utt_id": 160
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.104",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_diamond_mine@g",
+        "follower": "m10_diamond_mine@f"
+      },
+      "reason": "Follower mentions “bottom of the diamond mine”; giver strongly confirms, so both link to the diamond mine.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the diamond line mine",
+        "utt_id": 160
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.105",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rock_fall@g",
+        "follower": "m10_rock_fall@f"
+      },
+      "reason": "Follower says “to the rock…”, and giver responds “you’re at the bottom of the rock fall,” grounding the landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rock_fall",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the rock",
+        "utt_id": 164
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.106",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rock_fall@g",
+        "follower": "m10_rock_fall@f"
+      },
+      "reason": "Giver: “bottom of the rock fall.” Follower echoes; later corrected to top, but the landmark remains the rock fall.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rock_fall",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rock fall",
+        "utt_id": 165
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.107",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rock_fall@g",
+        "follower": "m10_rock_fall@f"
+      },
+      "reason": "Follower’s pronoun “it” refers back to the rock fall; giver immediately corrects position, indicating shared reference.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rock_fall",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 166
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.108",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rock_fall@g",
+        "follower": "m10_rock_fall@f"
+      },
+      "reason": "Giver corrects to “top of the rock fall”; follower accepts (“right okay”), confirming the rock fall as the referent.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rock_fall",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rock fall",
+        "utt_id": 167
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.109",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rope_bridge@g",
+        "follower": "m10_rope_bridge@f"
+      },
+      "reason": "Giver instructs “take a diagonal to the rope bridge.” Follower follows the direction and later crosses it, showing successful grounding on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rope_bridge",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rope bridge",
+        "utt_id": 171
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.110",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rope_bridge@g",
+        "follower": "m10_rope_bridge@f"
+      },
+      "reason": "Giver adds “go across the rope bridge.” Follower later says “and then across it” and reaches the other side, confirming grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rope_bridge",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rope bridge",
+        "utt_id": 171
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.111",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rope_bridge@g",
+        "follower": "m10_rope_bridge@f"
+      },
+      "reason": "Further clarification “up to the rope bridge.” The landmark is already in focus; follower proceeds toward it; thus tacitly grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rope_bridge",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rope bridge",
+        "utt_id": 175
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.112",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rope_bridge@g",
+        "follower": "m10_rope_bridge@f"
+      },
+      "reason": "Giver reiterates “the rope bridge”; follower immediately reports being on the other side, confirming correct grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rope_bridge",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rope bridge",
+        "utt_id": 177
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.113",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rope_bridge@g",
+        "follower": "m10_rope_bridge@f"
+      },
+      "reason": "Follower asks “and then across it”; giver confirms “and across the rope bridge.” Crossing action aligns; grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rope_bridge",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 176
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.114",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rope_bridge@g",
+        "follower": "m10_rope_bridge@f"
+      },
+      "reason": "Follower says he is at the other side of it after crossing; giver acknowledges and proceeds. Both maps have the rope bridge.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rope_bridge",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 178
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.115",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Giver introduces giraffes; follower acknowledges and later aligns locations. Both maps contain giraffes.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "giraffes",
+        "utt_id": 179
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.116",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m10_crocodiles@f",
+        "follower": "m10_crocodiles@f"
+      },
+      "reason": "Follower reports crocodiles in between; giver immediately recognizes this (“you’ve got crocodiles”). Crocodiles only appear on follower’s map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_crocodiles",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "crocodiles",
+        "utt_id": 178
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.117",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_crocodiles@f",
+        "follower": "m10_crocodiles@f"
+      },
+      "reason": "Giver acknowledges follower’s crocodiles (“you’ve got crocodiles”) and plans around them. Landmark is on follower’s map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_crocodiles",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "crocodiles",
+        "utt_id": 181
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.118",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_crocodiles@f",
+        "follower": "m10_crocodiles@f"
+      },
+      "reason": "Giver instructs to miss the crocodiles; follower later acts accordingly. Refers to follower’s crocodiles.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_crocodiles",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the crocodiles",
+        "utt_id": 181
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.119",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Giver says to go round the giraffes; follower acknowledges and follows. Both have giraffes.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the giraffes",
+        "utt_id": 181
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.120",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Giver continues referring to the giraffes’ location; follower later confirms his giraffes are there too.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the giraffes",
+        "utt_id": 179
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.121",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Giver specifies ‘my giraffes’ are bottom right; follower: “that’s where mine are.” Shared grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "my giraffes",
+        "utt_id": 179
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.122",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Follower confirms location: “that’s where mine are.” Giver proceeds. Refers to giraffes on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "mine",
+        "utt_id": 182
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.123",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Giver instructs to go to the right of the giraffes; follower acknowledges and moves accordingly.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the giraffes",
+        "utt_id": 183
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.124",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rope_bridge@g",
+        "follower": "m10_rope_bridge@f"
+      },
+      "reason": "Follower states position at right-hand side of the rope bridge; giver says “uh-huh.” Rope bridge on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rope_bridge",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the rope bridge",
+        "utt_id": 184
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.125",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Giver describes skirting the giraffes; follower acknowledges and follows.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the giraffes",
+        "utt_id": 189
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.126",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Continuation/repair of ‘giraffes’ during instruction; follower proceeds with movement, showing uptake.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the gir--",
+        "utt_id": 189
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.127",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m10_crocodiles@f",
+        "follower": "m10_crocodiles@f"
+      },
+      "reason": "Follower says he’s going through the side of the crocodiles; giver responds with corrective instruction. Crocodiles exist only on follower’s map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_crocodiles",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the crocodiles",
+        "utt_id": 190
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.128",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_crocodiles@f",
+        "follower": "m10_crocodiles@f"
+      },
+      "reason": "Giver instructs “go round them,” referring to crocodiles; follower agrees (“right”). Landmark is the follower’s crocodiles.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_crocodiles",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "them",
+        "utt_id": 191
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.129",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m10_crocodiles@f",
+        "follower": "m10_crocodiles@f"
+      },
+      "reason": "Follower says he’s cutting his (a crocodile’s) head off; giver immediately corrects to go round them. Crocodiles only on follower’s map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_crocodiles",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "his head",
+        "utt_id": 192
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.130",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m10_crocodiles@f",
+        "follower": "m10_crocodiles@f"
+      },
+      "reason": "Follower: “I’ll go round that,” referring to the crocodiles; subsequent dialogue confirms avoidance. Only on follower’s map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_crocodiles",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "that",
+        "utt_id": 190
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.131",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Follower goes down to the right of the giraffes; giver approves (“yeah fine”). Shared landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the giraffes",
+        "utt_id": 190
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.132",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Follower continues “right past the giraffes”; giver accepts. Same giraffes as established.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the giraffes",
+        "utt_id": 190
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.133",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Follower specifies “the third giraffe’s tail”; giver says “yeah fine.” Grounded to giraffes.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the third giraffe's tail",
+        "utt_id": 190
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.134",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Follower asks about “the bottom of the giraffes”; later Giver confirms “you’re at the bottom of the giraffes” (utt:203).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the giraffes",
+        "utt_id": 196
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.135",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Giver states “I’ve got a great lake”; Follower replies “so have I” (utt:198), aligning on the lake.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a great lake",
+        "utt_id": 197
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.136",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Follower’s “so have I” refers to the great lake; Giver continues about it being the final obstacle (utt:199).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "so",
+        "utt_id": 198
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.137",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Giver’s “that’s the final obstacle” points to the great lake; Follower acknowledges (utt:200).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "that's",
+        "utt_id": 199
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.138",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Follower reports being “at the bottom of the giraffes”; Giver echoes this (utt:203).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the giraffes",
+        "utt_id": 202
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.139",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Giver restates “you’re at the bottom of the giraffes”; no repair follows.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the giraffes",
+        "utt_id": 203
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.140",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Follower references alignment with the letter “s” of “giraffes”; Giver says “yeah that’s fine” (utt:205).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the letter \"s\" of giraffes",
+        "utt_id": 204
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.141",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Continuation of the same ‘giraffes’ reference; acknowledged by Giver (utt:205).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "giraffes",
+        "utt_id": 204
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.142",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Giver states “the great lake’s down at the bottom”; Follower acknowledges (utt:206).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the great lake's",
+        "utt_id": 205
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.143",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Instruction to head toward the bottom of the great lake; Follower says “right okay” (utt:210).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the great lake",
+        "utt_id": 209
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.144",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Instruction to go underneath the great lake; Follower acknowledges (utt:210).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the great lake",
+        "utt_id": 209
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.145",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m10_disused_warehouse@f",
+        "follower": "m10_disused_warehouse@f"
+      },
+      "reason": "Follower introduces a disused warehouse; Giver questions its position (utts:217,219). Warehouse exists only on follower’s map; Giver grounds it on speaker’s map (imagined).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_disused_warehouse",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "disused disused warehouse",
+        "utt_id": 212
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.146",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Follower mentions a warehouse between the giraffes and lake; Giver engages with follow-up questions, showing uptake.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the giraffes",
+        "utt_id": 210
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.147",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Follower adds “and the great lake”; Giver continues with queries about relative position, indicating grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the great lake",
+        "utt_id": 212
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.148",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_disused_warehouse@f",
+        "follower": "m10_disused_warehouse@f"
+      },
+      "reason": "Giver’s “is it” refers to the warehouse; Follower answers with its position (utt:220).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_disused_warehouse",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 217
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.149",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_disused_warehouse@f",
+        "follower": "m10_disused_warehouse@f"
+      },
+      "reason": "In “is it above it or below it,” first ‘it’ = warehouse; Follower responds with placement, so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_disused_warehouse",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 219
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.150",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "The first ‘it’ compared against is the great lake; Follower’s reply shows understanding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 219
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.151",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Second occurrence of ‘it’ in the same question again refers to the great lake; addressed by Follower’s answer.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 219
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.152",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m10_disused_warehouse@f",
+        "follower": "m10_disused_warehouse@f"
+      },
+      "reason": "Follower: “It’s [warehouse] to the right-hand side of it [lake].” Giver acknowledges and instructs next. Warehouse exists only on speaker’s map; imagined = true.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_disused_warehouse",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it's",
+        "utt_id": 220
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.153",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "‘It’ here refers to the great lake; Giver immediately accepts and gives guidance (utt:221).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 220
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.154",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_disused_warehouse@f",
+        "follower": "m10_disused_warehouse@f"
+      },
+      "reason": "Giver instructs “go above the disused warehouse”; Follower acknowledges (utt:222).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_disused_warehouse",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the disused warehouse",
+        "utt_id": 221
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.155",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Follower says he’s going to the bottom of the great lake; Giver confirms “yeah that’s right” (utt:225).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the great lake",
+        "utt_id": 224
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.156",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_disused_warehouse@f",
+        "follower": "m10_disused_warehouse@f"
+      },
+      "reason": "Giver clarifies “above the disused warehouse”; Follower responds “okay” (utt:228).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_disused_warehouse",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the disused warehouse",
+        "utt_id": 227
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.157",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Same clarification: “below the great lake”; Follower acknowledges (utt:228).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the great lake",
+        "utt_id": 227
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.158",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Follower reports “I’m below the great lake just now.” Although no explicit reply, the lake was previously grounded and this fits prior instruction; treat as tacitly grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the great lake",
+        "utt_id": 230
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.159",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@g",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Giver instructs “come straight up towards the field station.” Follower acknowledges then mentions his field station at the top (utt.238), indicating both link to the shared top-left field station.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the field station",
+        "utt_id": 231
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.160",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Giver sets target “finishing level with the giraffes’ kneecaps”; follower repeats it (utt.234) and later uses it as the endpoint. Grounded to giraffes on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the giraffes' kneecaps",
+        "utt_id": 233
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.161",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Giver says “see the giraffes’ kneecaps”; follower reacts then proceeds, and both use this anchor for the finish (utts.242–243). Grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the giraffes' kneecaps",
+        "utt_id": 235
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.162",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@g",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Follower states “my field station’s away up at the top of the page.” Giver responds “don’t go right up to the field station,” confirming shared reference to the field station.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "my finish field station's",
+        "utt_id": 238
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.163",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@g",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "Giver reiterates direction “up to the field station…,” then corrects not to go that far; follower responds “Right,” maintaining reference to the same field station.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the field station",
+        "utt_id": 239
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.164",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Follower checks “giraffes’ kneecaps”; giver confirms in the next turn (utt.243). Grounded to giraffes on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "giraffes' not kneecaps",
+        "utt_id": 242
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.165",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_field_station#1@g",
+        "follower": "m10_field_station#1@f"
+      },
+      "reason": "“Not as far as that” refers back to the field station. Though not repeated, the correction continues the established reference and the follower proceeds, implying grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "that",
+        "utt_id": 241
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.166",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_finish@g",
+        "follower": "m10_finish@g"
+      },
+      "reason": "Follower declares “that’s the finish”; giver immediately echoes it (utt.243). The finish landmark exists on the giver’s map and is grounded there by the addressee.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_finish",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the finish",
+        "utt_id": 242
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.167",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Giver reiterates “giraffes’ kneecaps”; follower acknowledges and adjusts (utt.244). The reference is clearly grounded to giraffes on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "giraffes' kneecaps",
+        "utt_id": 243
+      }
+    },
+    {
+      "ref_id_unif": "q4nc8.ref.168",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m10_finish@g",
+        "follower": "m10_finish@g"
+      },
+      "reason": "Giver adds “and that’s the finish”; follower acknowledges and ends (utts.244–246). Finish is only on the giver’s map, so the follower’s grounding is imagined.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the finish",
+        "utt_id": 243
+      }
+    }
+  ]
+}

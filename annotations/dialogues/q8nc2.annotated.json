@@ -1,0 +1,509 @@
+{
+  "dialogue_id": "q8nc2",
+  "landmark_reference_expressions": [
+    {
+      "ref_id_unif": "q8nc2.ref.0",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m10_springboks@g",
+        "follower": ""
+      },
+      "reason": "Giver first mentions “the springboks.” Follower immediately asks for repetition (“what was that last one”), showing uptake but not understanding. No landmark named springboks exists on follower’s map, so not grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m10_springboks",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the springboks",
+        "utt_id": 1
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.1",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_springboks@g",
+        "follower": ""
+      },
+      "reason": "Giver repeats “past the springboks.” Follower acknowledges (“okay mm”), indicating acceptance, but provides no specific identification. Since follower’s map lacks springboks and no alternative is proposed, the RE is not grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_springboks",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the springboks",
+        "utt_id": 3
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.2",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_springboks@g",
+        "follower": ""
+      },
+      "reason": "Giver instructs “go around the springboks.” Follower immediately checks (“springbok?”), showing uptake. Since springboks exist only on the giver’s map, the follower cannot link it to a concrete landmark; thus accommodated but not grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_springboks",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the springboks",
+        "utt_id": 5
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.3",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_springboks@g",
+        "follower": ""
+      },
+      "reason": "Follower produces a check (“springbok?”) about a landmark introduced by the giver, so speaker’s intended referent is left empty. Giver proceeds with distance info without repair, indicating grounding to the giver’s springboks.",
+      "extra": {
+        "status": "pending",
+        "subtype": "speaker_query"
+      },
+      "info": {
+        "concept_id": "m10_springboks",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "springbok",
+        "utt_id": 6
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.4",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": ""
+      },
+      "reason": "Giver introduces the highest viewpoint as a landmark for routing. Follower only gives a generic acknowledgment (“mmhmm”) without repeating or locating it, so it’s accommodated but not clearly grounded to a specific map point.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the highest viewpoint",
+        "utt_id": 9
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.5",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_highest_viewpoint@g",
+        "follower": ""
+      },
+      "reason": "Pronoun “it” corefers to the highest viewpoint from the same instruction. The follower merely acknowledges with “mmhmm”; no explicit identification of the landmark, so accommodated but not grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_highest_viewpoint",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 9
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.6",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_safari_truck@g",
+        "follower": ""
+      },
+      "reason": "Giver mentions the safari truck during a long instruction. Follower only gives a general acknowledgment (“mm so so”) to “got that”, without linking to a specific landmark.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_safari_truck",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the safari's truck truck",
+        "utt_id": 11
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.7",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_field_station#0@g",
+        "follower": ""
+      },
+      "reason": "Reference to the field station after the safari truck. Follower provides only a general acknowledgment. Also there are two field stations on giver’s map but one on follower’s, so no explicit grounding occurs.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_field_station",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the field station",
+        "utt_id": 11
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.8",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_banana_tree@g",
+        "follower": ""
+      },
+      "reason": "Banana tree is included within the same long instruction; follower merely gives a general acknowledgment, not a specific confirmation, so no grounding evidence.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_banana_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the banana tree",
+        "utt_id": 11
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.9",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_gold_mine@g",
+        "follower": ""
+      },
+      "reason": "Giver says “to the bottom of the gold mine”. Follower replies “mm so so” but the gold mine exists only on the giver’s map, so the follower cannot ground it.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_gold_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the gold mine",
+        "utt_id": 11
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.10",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_gold_mine@g",
+        "follower": ""
+      },
+      "reason": "Giver repeats “by the gold mine”; follower asks only about distance (“how far”), accepting the instruction but not linking it to any landmark (none on follower’s map).",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_gold_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the gold mine",
+        "utt_id": 13
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.11",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_gold_mine@g",
+        "follower": ""
+      },
+      "reason": "Second mention of the same gold mine (“edge of the gold mine”). Follower’s distance query shows uptake but no landmark on their map to ground it to.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_gold_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the gold mine",
+        "utt_id": 13
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.12",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m10_rope_bridge@g",
+        "follower": ""
+      },
+      "reason": "Giver instructs “up to the rope bridge.” Follower only acknowledges with “mmhmm,” indicating uptake without specifying or confirming its location. Thus accommodated but not grounded; giver intends the rope bridge on their map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m10_rope_bridge",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rope bridge",
+        "utt_id": 17
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.13",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_rope_bridge@g",
+        "follower": "m10_rope_bridge@f"
+      },
+      "reason": "Rope bridge was introduced in utt:17 and acknowledged (utt:18). In utt:19, “cross the rope bridge” reuses this grounded landmark; no repair requested.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_rope_bridge",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rope bridge",
+        "utt_id": 19
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.14",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "Instruction moves to “the giraffes” (utt:19). Follower responds “okay” (utt:20), showing uptake and linking to the single giraffes landmark on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the giraffes",
+        "utt_id": 19
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.15",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_giraffes@g",
+        "follower": "m10_giraffes@f"
+      },
+      "reason": "“the giraffes’ feet” (utt:21) is a continued reference to the giraffes; follower replies “mmhmm” (utt:22), indicating acceptance and grounding to the same giraffes landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_giraffes",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the giraffes' feet",
+        "utt_id": 21
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.16",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Giver instructs moving west to the edge of the great lake. Follower replies “okay,” indicating uptake. Both maps contain the great lake, so it’s grounded: giver→m10_great_lake@g; follower→m10_great_lake@f.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the great lake",
+        "utt_id": 27
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.17",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_great_lake@g",
+        "follower": "m10_great_lake@f"
+      },
+      "reason": "Giver further specifies “the furthest west point of the great lake.” Follower acknowledges “okay.” Reference is to the same great lake, present on both maps; thus grounded to m10_great_lake on each map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_great_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the great lake",
+        "utt_id": 27
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.18",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m10_finish@g",
+        "follower": ""
+      },
+      "reason": "Giver instructs “up to the finish”; follower immediately asks “what finish,” indicating failure to process. So not grounded by follower. Giver’s intended referent is Finish on giver map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m10_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the finish",
+        "utt_id": 29
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.19",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m10_finish@g",
+        "follower": ""
+      },
+      "reason": "Follower queries the previously mentioned landmark (“what finish”). Speaker has no specific referent; giver understands and links it to Finish on their map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "speaker_query"
+      },
+      "info": {
+        "concept_id": "m10_finish",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "finish",
+        "utt_id": 30
+      }
+    },
+    {
+      "ref_id_unif": "q8nc2.ref.20",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m10_finish@g",
+        "follower": "m10_finish@g"
+      },
+      "reason": "Giver clarifies with location and says “that’s it”; follower acknowledges. The referent is Finish, which exists only on giver’s map, hence grounded-as-imagined by follower.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m10_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 31
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "annotation_output_format",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "dialogue_id": {
+        "type": "string",
+        "description": "Unique identifier for the dialogue."
+      },
+      "landmark_reference_expressions": {
+        "type": "array",
+        "description": "List of landmark reference expression (RE) annotations.",
+        "items": {
+          "$ref": "#/$defs/AnnotationPerRE"
+        }
+      }
+    },
+    "required": [
+      "dialogue_id",
+      "landmark_reference_expressions"
+    ],
+    "additionalProperties": false,
+    "$defs": {
+      "AnnotationPerRE": {
+        "type": "object",
+        "properties": {
+          "ref_id_unif": {
+            "type": "string",
+            "description": "Unified RE identifier."
+          },
+          "is_quantificational": {
+            "type": "boolean",
+            "description": "Whether the expression is quantificational."
+          },
+          "is_specified": {
+            "type": "boolean",
+            "description": "Whether the addressee's response is specified by the context."
+          },
+          "interpretations": {
+            "$ref": "#/$defs/InterpretationPerRE"
+          },
+          "reason": {
+            "type": "string",
+            "description": "Reason or justification for the annotation."
+          }
+        },
+        "required": [
+          "ref_id_unif",
+          "is_quantificational",
+          "is_specified",
+          "interpretations",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "InterpretationPerRE": {
+        "type": "object",
+        "properties": {
+          "is_accommodated": {
+            "type": "boolean",
+            "description": "True if the RE is accommodated."
+          },
+          "is_grounded": {
+            "type": "boolean",
+            "description": "True if the RE is grounded."
+          },
+          "is_imagined": {
+            "type": "boolean",
+            "description": "True if the RE is only present on the speaker's map."
+          },
+          "giver": {
+            "type": "string",
+            "description": "Landmark ID of the giver's interpretation. Note that the giver may not always be the speaker."
+          },
+          "follower": {
+            "type": "string",
+            "description": "Landmark ID of the follower's interpretation. Note that the follower may not always be the addressee."
+          }
+        },
+        "required": [
+          "is_accommodated",
+          "is_grounded",
+          "is_imagined",
+          "giver",
+          "follower"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "strict": true
+}

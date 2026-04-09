@@ -1,0 +1,437 @@
+{
+  "dialogue_id": "q3ec2",
+  "landmark_reference_expressions": [
+    {
+      "ref_id_unif": "q3ec2.ref.0",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m11_start@g",
+        "follower": ""
+      },
+      "reason": "First query is aborted and immediately reformulated; the follower only answers the second one. No uptake, so not accommodated or grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m11_start",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a starting point",
+        "utt_id": 1
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.1",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m11_start@g",
+        "follower": ""
+      },
+      "reason": "Giver asks if there is a starting point at the top-left; follower replies “yeah”, grounding it to the start on the follower’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m11_start",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a starting point",
+        "utt_id": 1
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.2",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m11_start@g",
+        "follower": "m11_start@f"
+      },
+      "reason": "“That starting point” refers back to the now-agreed start; follower acknowledges the instruction, so the anaphoric RE is tacitly grounded to the same landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m11_start",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "that starting point",
+        "utt_id": 3
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.3",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m11_crane_bay@g",
+        "follower": "m11_crane_bay@f"
+      },
+      "reason": "Follower mentions “the water”; giver acknowledges and immediately reuses it. Both align on Crane Bay as the water body.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m11_crane_bay",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the water",
+        "utt_id": 34
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.4",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m11_crane_bay@g",
+        "follower": "m11_crane_bay@f"
+      },
+      "reason": "Giver says “the water”; follower gives uptake (right/okay) and reacts about not being in it, indicating shared reference to Crane Bay.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m11_crane_bay",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the water",
+        "utt_id": 36
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.5",
+      "is_quantificational": false,
+      "is_specified": false,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m11_crane_bay@f"
+      },
+      "reason": "Follower’s elliptical ‘any [more]’ refers back to the water, but the giver provides no response here; thus no new uptake/grounding.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unspecified"
+      },
+      "info": {
+        "concept_id": "m11_crane_bay",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "any",
+        "utt_id": 37
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.6",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m11_finish@g",
+        "follower": ""
+      },
+      "reason": "G says “that should be the finish point” (utt:56). F immediately asks “what’s the finish point?” (utt:57), showing confusion; no link to any map landmark.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m11_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the finish point",
+        "utt_id": 56
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.7",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m11_finish@g",
+        "follower": ""
+      },
+      "reason": "Second repetition of “the finish point” (utt:56). F’s next move is still “what’s the finish point?” (utt:57), so not accommodated or grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m11_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the finish point",
+        "utt_id": 56
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.8",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m11_finish@g",
+        "follower": ""
+      },
+      "reason": "F asks “what’s the finish point” (utt:57). G answers by identifying it as a cross on his map (utts:58–60), linking to the giver’s finish.",
+      "extra": {
+        "status": "pending",
+        "subtype": "speaker_query"
+      },
+      "info": {
+        "concept_id": "m11_finish",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the finish point",
+        "utt_id": 57
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.9",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m11_finish@g",
+        "follower": ""
+      },
+      "reason": "G refers to “it” (utt:58). F replies with a follow‑up question (utt:59), showing uptake, but she still lacks a concrete landmark; not grounded on her map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m11_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 58
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.10",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m11_finish@g",
+        "follower": ""
+      },
+      "reason": "F’s “it” (utt:59) refers back to the finish. G immediately explains it as a cross (utt:60), so the addressee (giver) grounds it to his finish.",
+      "extra": {
+        "status": "pending",
+        "subtype": "speaker_query"
+      },
+      "info": {
+        "concept_id": "m11_finish",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 59
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.11",
+      "is_quantificational": false,
+      "is_specified": false,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m11_finish@g",
+        "follower": ""
+      },
+      "reason": "G begins “a cro—” (utt:60) but self‑repairs; no uptake from F to this fragment.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unspecified"
+      },
+      "info": {
+        "concept_id": "m11_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a cro--",
+        "utt_id": 60
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.12",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m11_finish@g",
+        "follower": ""
+      },
+      "reason": "G: “a cross on my map here …” (utt:60). F later aligns only to the area (“bottom left,” utt:61), not to a specific finish symbol on her map; thus ungrounded for F.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m11_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a cross",
+        "utt_id": 60
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.13",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m11_finish@g",
+        "follower": ""
+      },
+      "reason": "G: “it’s down near the—” (utt:60). F supplies “bottom left of the page” (utt:61), but still no specific finish on F’s map; ungrounded for follower.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m11_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it's",
+        "utt_id": 60
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.14",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m11_finish@g",
+        "follower": ""
+      },
+      "reason": "F proposes the location “bottom left of the page” (utt:61). G immediately confirms (utt:62), thereby grounding the reference to the giver’s finish location.",
+      "extra": {
+        "status": "pending",
+        "subtype": "speaker_query"
+      },
+      "info": {
+        "concept_id": "m11_finish",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "bottom",
+        "utt_id": 61
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.15",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m11_chestnut_tree@g",
+        "follower": ""
+      },
+      "reason": "G asks “have you got a tree there” (utt:64). F answers “I’m at a chestnut tree” (utt:65), linking to the chestnut tree on both maps.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m11_chestnut_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a tree",
+        "utt_id": 64
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.16",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m11_chestnut_tree@g",
+        "follower": "m11_chestnut_tree@f"
+      },
+      "reason": "F asserts “I’m at a chestnut tree” (utt:65). G confirms (utt:66), grounding the reference to the chestnut tree on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m11_chestnut_tree",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a chestnut tree",
+        "utt_id": 65
+      }
+    },
+    {
+      "ref_id_unif": "q3ec2.ref.17",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m11_chestnut_tree@g",
+        "follower": "m11_chestnut_tree@f"
+      },
+      "reason": "G restates “you’re at a chestnut tree” and checks completion (utt:66). F proceeds to close (utt:67). The chestnut tree is already mutually established; grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m11_chestnut_tree",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a chestnut tree",
+        "utt_id": 66
+      }
+    }
+  ]
+}

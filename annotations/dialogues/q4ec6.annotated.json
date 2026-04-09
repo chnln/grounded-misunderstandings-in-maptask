@@ -1,0 +1,1589 @@
+{
+  "dialogue_id": "q4ec6",
+  "landmark_reference_expressions": [
+    {
+      "ref_id_unif": "q4ec6.ref.0",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_camera_shop@g",
+        "follower": "m0_camera_shop@f"
+      },
+      "reason": "Giver uses “the camera shop” in an instruction. Follower immediately echoes it, indicating uptake. Both maps have a single camera shop, so it’s grounded to that landmark on each map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_camera_shop",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the camera shop",
+        "utt_id": 1
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.1",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_camera_shop@g",
+        "follower": "m0_camera_shop@f"
+      },
+      "reason": "Follower checks by repeating “to the left of the camera shop.” Giver answers “yes,” confirming understanding; the reference is grounded to the unique camera shop on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_camera_shop",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the camera shop",
+        "utt_id": 2
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.2",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m0_parked_van#0@g",
+        "follower": ""
+      },
+      "reason": "Giver checks existence of a parked van under the camera shop; follower replies “no.” Query is accommodated but no landmark is identified on follower’s map. Giver intended the bottom-left van.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m0_parked_van",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a parked van",
+        "utt_id": 5
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.3",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_camera_shop@g",
+        "follower": "m0_camera_shop@f"
+      },
+      "reason": "‘Camera shop’ was already established in utt1–3 and reused here as a location anchor with no repair, so it is implicitly grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_camera_shop",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the camera shop",
+        "utt_id": 5
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.4",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_allotments@g",
+        "follower": "m0_allotments@f"
+      },
+      "reason": "Giver instructs to go to the allotments; follower later refers to their left-hand side/top and giver confirms. Thus grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_allotments",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the allotments",
+        "utt_id": 7
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.5",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_camera_shop@g",
+        "follower": "m0_camera_shop@f"
+      },
+      "reason": "Follower checks “underneath the camera shop at the bottom”; giver says “yes,” confirming grounding of the camera shop.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_camera_shop",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the camera shop",
+        "utt_id": 8
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.6",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_allotments@g",
+        "follower": "m0_allotments@f"
+      },
+      "reason": "Follower: “the left-hand side of the allotments”; giver replies “yes.” Successfully grounded to the allotments on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_allotments",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the allotments",
+        "utt_id": 10
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.7",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_allotments@g",
+        "follower": "m0_allotments@f"
+      },
+      "reason": "Follower states stopping at the top of the allotments; giver immediately confirms. Both have the allotments, so it’s grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_allotments",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "allotments",
+        "utt_id": 12
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.8",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m0_yacht_club@g",
+        "follower": ""
+      },
+      "reason": "Giver checks existence of a yacht club in bottom-right; follower replies yes. This establishes the same landmark on both maps.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m0_yacht_club",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a yacht club in the bottom right corner",
+        "utt_id": 15
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.9",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_camera_shop@g",
+        "follower": "m0_camera_shop@f"
+      },
+      "reason": "Reference to the camera shop’s top; camera shop had been jointly used before, and no clarification is requested. Grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_camera_shop",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the camera shop",
+        "utt_id": 17
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.10",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_allotments@g",
+        "follower": "m0_allotments@f"
+      },
+      "reason": "Instruction uses ‘the allotments’; this landmark was already aligned earlier and the follower proceeds without repair, so tacitly grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_allotments",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the allotments",
+        "utt_id": 17
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.11",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m0_flight_museum@f"
+      },
+      "reason": "Follower asks if giver has a flight museum; giver replies no. Hence not grounded on giver’s map; the landmark exists only on follower’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m0_flight_museum",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a flight museum",
+        "utt_id": 18
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.12",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_allotments@g",
+        "follower": "m0_allotments@f"
+      },
+      "reason": "Follower checks ‘from the allotments to the right’; giver confirms. Previously aligned landmark, thus grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_allotments",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the allotments",
+        "utt_id": 20
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.13",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_yacht_club@g",
+        "follower": "m0_yacht_club@f"
+      },
+      "reason": "Follower asks distance relative to the yacht club; giver provides positioning information. Both refer to the same yacht club.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_yacht_club",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the yacht club",
+        "utt_id": 22
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.14",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_camera_shop@g",
+        "follower": "m0_camera_shop@f"
+      },
+      "reason": "Self-repair ‘the cam—’ leading into camera shop; follower accepts the subsequent description. Treated as the same, grounded camera shop.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_camera_shop",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the cam--",
+        "utt_id": 23
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.15",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_camera_shop@g",
+        "follower": "m0_camera_shop@f"
+      },
+      "reason": "‘the roof of …’ continues the camera shop reference; follower accepts. Grounded to the known camera shop landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_camera_shop",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the roof of the camera shop",
+        "utt_id": 23
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.16",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_camera_shop@g",
+        "follower": "m0_camera_shop@f"
+      },
+      "reason": "Explicit ‘the camera shop’ used to anchor level; no repair needed and follower acknowledges. Grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_camera_shop",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the camera shop",
+        "utt_id": 23
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.17",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_yacht_club@g",
+        "follower": "m0_yacht_club@f"
+      },
+      "reason": "Giver says slightly left of the yacht club; follower replies ‘right’. Shared yacht club is thus grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_yacht_club",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the c-- yacht club",
+        "utt_id": 25
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.18",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_disused_monastery@g",
+        "follower": "m0_disused_monastery@f"
+      },
+      "reason": "Giver instructs “curve over the top of the disused monastery.” Follower later confirms “above the monastery,” showing understanding and linking to that landmark on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_disused_monastery",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the disused monastery",
+        "utt_id": 29
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.19",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_disused_monastery@g",
+        "follower": "m0_disused_monastery@f"
+      },
+      "reason": "Giver checks “curved over the monastery.” Follower replies “mmhmm above the monastery,” confirming and grounding the same landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_disused_monastery",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the monastery",
+        "utt_id": 31
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.20",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_disused_monastery@g",
+        "follower": "m0_disused_monastery@f"
+      },
+      "reason": "Follower states “above the monastery.” Giver proceeds with next instruction without repair; the monastery was just established, so this is accepted and grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_disused_monastery",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the monastery",
+        "utt_id": 32
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.21",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_disused_monastery@g",
+        "follower": "m0_disused_monastery@f"
+      },
+      "reason": "Follower checks “right round the monastery.” Giver replies “yeah,” confirming the same landmark and grounding it.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_disused_monastery",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the monastery",
+        "utt_id": 34
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.22",
+      "is_quantificational": false,
+      "is_specified": false,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m0_alpine_garden@g",
+        "follower": ""
+      },
+      "reason": "G references the alpine garden (utt:37). F only says “s--” with no clear uptake. No evidence it was processed or linked to a landmark.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unspecified"
+      },
+      "info": {
+        "concept_id": "m0_alpine_garden",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the alpine garden",
+        "utt_id": 37
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.23",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_disused_monastery@g",
+        "follower": "m0_disused_monastery@f"
+      },
+      "reason": "‘it’ refers back to the (already discussed) disused monastery. The follower had just confirmed orientation around the monastery and replies “mmhmm,” indicating uptake. Landmark exists on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_disused_monastery",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 39
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.24",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_disused_monastery@g",
+        "follower": "m0_disused_monastery@f"
+      },
+      "reason": "Explicit mention of the disused monastery. This landmark was grounded earlier (“above/right round the monastery”), and the follower acknowledges with “mmhmm,” so it remains grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_disused_monastery",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the disused monastery",
+        "utt_id": 39
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.25",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_alpine_garden@g",
+        "follower": "m0_alpine_garden@f"
+      },
+      "reason": "Reference to the alpine garden’s left-hand side. The alpine garden was introduced in utt.37 and reused here; the follower responds “mmhmm,” showing uptake. Present on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_alpine_garden",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the alpine garden",
+        "utt_id": 39
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.26",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_alpine_garden@g",
+        "follower": "m0_alpine_garden@f"
+      },
+      "reason": "Reuse of alpine garden; previously aligned (utt.39-40). No repair; treated as grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_alpine_garden",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the alpine garden",
+        "utt_id": 41
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.27",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m0_youth_hostel@g",
+        "follower": ""
+      },
+      "reason": "Existence check: “have you got a youth hostel?” Follower replies “no”, so not grounded to any landmark.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m0_youth_hostel",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a youth hostel",
+        "utt_id": 41
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.28",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_alpine_garden@g",
+        "follower": "m0_alpine_garden@f"
+      },
+      "reason": "Instruction uses alpine garden again; it was already established. Treated as tacitly grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_alpine_garden",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the alpine garden",
+        "utt_id": 43
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.29",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m0_parked_van#1@f"
+      },
+      "reason": "Follower asks “have you got parked van”. Giver replies “yes” without specifying which; not linked to a specific giver landmark.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m0_parked_van",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "parked van",
+        "utt_id": 44
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.30",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m0_youth_hostel@g",
+        "follower": ""
+      },
+      "reason": "Pronoun “it” refers to the youth hostel. Follower previously said they don’t have it; acknowledges but cannot ground it.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m0_youth_hostel",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it's",
+        "utt_id": 45
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.31",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_parked_van#1@g",
+        "follower": "m0_parked_van#1@f"
+      },
+      "reason": "“the parked van” used as anchor; follower acknowledges. Linked to the single van on follower map and the corresponding top van on giver map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_parked_van",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the parked van",
+        "utt_id": 45
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.32",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m0_youth_hostel@g",
+        "follower": ""
+      },
+      "reason": "Again “it” = youth hostel; follower lacks that landmark, only acknowledges; not grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m0_youth_hostel",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it's",
+        "utt_id": 47
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.33",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_picket_fence@g",
+        "follower": "m0_picket_fence@f"
+      },
+      "reason": "Picket fence used as reference; follower later confirms having it. Grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_picket_fence",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the picket fence",
+        "utt_id": 47
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.34",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m0_picket_fence@g",
+        "follower": ""
+      },
+      "reason": "Existence check “have you got that” referring to picket fence; follower replies “yeah”, linking to the fence on their map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m0_picket_fence",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "that",
+        "utt_id": 47
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.35",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "m0_youth_hostel@g",
+        "follower": ""
+      },
+      "reason": "Elliptical “it’s about an …” where “it”=youth hostel. Follower acknowledges but has no youth hostel; not grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m0_youth_hostel",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it's",
+        "utt_id": 49
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.36",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_picket_fence@g",
+        "follower": "m0_picket_fence@f"
+      },
+      "reason": "Location specified relative to picket fence; follower acknowledges. Grounded to the fence on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_picket_fence",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the picket fence",
+        "utt_id": 51
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.37",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_parked_van#1@g",
+        "follower": "m0_parked_van#1@f"
+      },
+      "reason": "Follower checks “underneath the parked van”; giver confirms. Both link to the same (top) van.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_parked_van",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the parked van",
+        "utt_id": 54
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.38",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_parked_van#1@g",
+        "follower": "m0_parked_van#1@f"
+      },
+      "reason": "Giver clarifies “the middle of the parked van”; follower acknowledges. Grounded to the van identified earlier.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_parked_van",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the parked van",
+        "utt_id": 55
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.39",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m0_telephone_box@g",
+        "follower": ""
+      },
+      "reason": "G asks if F has a telephone box; F answers “yeah.” Existence check is successful and both maps have this landmark, so it’s grounded on F’s telephone box.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m0_telephone_box",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a telephone box",
+        "utt_id": 57
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.40",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m0_youth_hostel@g",
+        "follower": ""
+      },
+      "reason": "G refers to the youth hostel as an anchor. F immediately says they don’t have one, so the reference is not accommodated or grounded; G intended their own youth hostel.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m0_youth_hostel",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the youth hostel",
+        "utt_id": 59
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.41",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": ""
+      },
+      "reason": "F denies existence: “I don't have youth hostel.” G acknowledges. It’s an existence denial, so not grounded; F has no matching landmark.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m0_youth_hostel",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "youth hostel",
+        "utt_id": 60
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.42",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_telephone_box@g",
+        "follower": "m0_telephone_box@f"
+      },
+      "reason": "G locates a point relative to “the telephone box.” Earlier F confirmed having it; no repair here, so the reference is accommodated and grounded to F’s telephone box.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_telephone_box",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the telephone box",
+        "utt_id": 63
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.43",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m0_level_crossing@f"
+      },
+      "reason": "F asks “have you got level crossing?” G replies “no.” Existence query; since G lacks it, the reference is not grounded (only on F’s map).",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m0_level_crossing",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "level crossing",
+        "utt_id": 64
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.44",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_telephone_box@g",
+        "follower": "m0_telephone_box@f"
+      },
+      "reason": "G describes a horizontal line under “the telephone box.” F acknowledges “uh-huh,” indicating successful grounding at the telephone box.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_telephone_box",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the telephone box",
+        "utt_id": 67
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.45",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_yacht_club@g",
+        "follower": "m0_yacht_club@f"
+      },
+      "reason": "G says the line is on a level with the yacht club; F replies “right … I’ve done that,” showing successful grounding at the yacht club.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_yacht_club",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the yacht club",
+        "utt_id": 69
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.46",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_telephone_box@g",
+        "follower": "m0_telephone_box@f"
+      },
+      "reason": "The giver references the telephone box to guide movement. The follower previously confirmed having it and had acted on it, then acknowledges (“mmhmm”). Hence accommodated and grounded to the telephone box on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_telephone_box",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the telephone box",
+        "utt_id": 71
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.47",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_east_lake@g",
+        "follower": "m0_east_lake@f"
+      },
+      "reason": "G refers to reaching a line at the middle of East Lake. F acknowledges and later uses East Lake in his check. The landmark exists on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_east_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "east lake",
+        "utt_id": 73
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.48",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_east_lake@g",
+        "follower": "m0_east_lake@f"
+      },
+      "reason": "Second mention of East Lake within the same instruction; F acknowledges and proceeds using it, so it is grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_east_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "east lake",
+        "utt_id": 73
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.49",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m0_level_crossing@f"
+      },
+      "reason": "F says he has a level crossing between landmarks. G previously said he doesn’t have it (utt:65) and simply replies “yes,” so no grounding on G’s map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m0_level_crossing",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a level cross",
+        "utt_id": 74
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.50",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_telephone_box@g",
+        "follower": "m0_telephone_box@f"
+      },
+      "reason": "F references the telephone box in his check; G accepts (“yes”). Both maps contain a telephone box, so it is grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_telephone_box",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "telephone box",
+        "utt_id": 74
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.51",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_east_lake@g",
+        "follower": "m0_east_lake@f"
+      },
+      "reason": "F mentions East Lake in the same check; G replies “yes.” Both maps have East Lake, so it is grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_east_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the east lake",
+        "utt_id": 74
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.52",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_east_lake@g",
+        "follower": "m0_east_lake@f"
+      },
+      "reason": "F says “to the middle of the east lake”; G immediately clarifies position with respect to East Lake and F acknowledges, indicating grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_east_lake",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the east lake",
+        "utt_id": 76
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.53",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_east_lake@g",
+        "follower": "m0_east_lake@f"
+      },
+      "reason": "G again references East Lake while clarifying; F acknowledges (“yeah… uh-huh”) and completes the step, so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_east_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the m-- yeah east lake",
+        "utt_id": 77
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.54",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_picket_fence@g",
+        "follower": "m0_picket_fence@f"
+      },
+      "reason": "G specifies alignment with the bottom of the picket fence; F acknowledges and says “done that.” Picket fence exists on both maps; grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_picket_fence",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the picket fence",
+        "utt_id": 79
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.55",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m0_picket_fence@g",
+        "follower": ""
+      },
+      "reason": "Giver references the top of the picket fence (utt.81); follower immediately asks for repetition (utt.82), showing uptake but not successful processing or grounding.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m0_picket_fence",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the picket fence",
+        "utt_id": 81
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.56",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m0_east_lake@g",
+        "follower": ""
+      },
+      "reason": "East lake mentioned in complex instruction (utt.81); follower requests repetition (utt.82), so the reference isn’t processed/grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m0_east_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "east lake",
+        "utt_id": 81
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.57",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": false,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m0_east_lake@g",
+        "follower": ""
+      },
+      "reason": "‘that bulge’ refers to the east lake (utt.81); follower asks to repeat (utt.82). Hence not accommodated/grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unaccommodated"
+      },
+      "info": {
+        "concept_id": "m0_east_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "that bulge",
+        "utt_id": 81
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.58",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m0_finish@g",
+        "follower": "m0_finish@g"
+      },
+      "reason": "‘the finish point’ introduced (utt.83) and, after clarifications (utts.87–91), follower concludes they have it (utt.92). Finish exists only on giver map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the finish point",
+        "utt_id": 83
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.59",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_picket_fence@g",
+        "follower": "m0_picket_fence@f"
+      },
+      "reason": "Picket fence in utt.83; this landmark was already shared earlier and follower acknowledges (utt.84). Grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_picket_fence",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the picket fence",
+        "utt_id": 83
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.60",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m0_finish@g",
+        "follower": "m0_finish@g"
+      },
+      "reason": "Pronoun for finish in utt.85 continues the placement; follower acknowledges (utt.86) and later confirms location (utt.92). Finish only on giver map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "about",
+        "utt_id": 85
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.61",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_picket_fence@g",
+        "follower": "m0_picket_fence@f"
+      },
+      "reason": "‘the middle of the picket fence’ (utt.87) used to locate finish; previously shared and accepted; dialogue proceeds without repair, so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_picket_fence",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the picket fence",
+        "utt_id": 87
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.62",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_east_lake@g",
+        "follower": "m0_east_lake@f"
+      },
+      "reason": "East lake’s leftmost part (utt.87) discussed; follower queries touching (utt.88) and receives clarification (utt.91), culminating in acceptance (utt.92). Grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_east_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "east lake",
+        "utt_id": 87
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.63",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m0_finish@g",
+        "follower": "m0_finish@g"
+      },
+      "reason": "Pronoun ‘it’ in utt.89 refers to finish during clarification about touching the lake; final acceptance at utt.92. Finish only on giver map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_finish",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 89
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.64",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m0_east_lake@g",
+        "follower": "m0_east_lake@f"
+      },
+      "reason": "Giver clarifies ‘doesn't actually touch the east lake’ (utt.91); follower then accepts placement (utt.92). East lake exists on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_east_lake",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the east lake",
+        "utt_id": 91
+      }
+    },
+    {
+      "ref_id_unif": "q4ec6.ref.65",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m0_finish@g",
+        "follower": "m0_finish@g"
+      },
+      "reason": "Follower’s ‘think that’s where it is’ (utt.92) uses ‘it’ for the finish. Though no reply follows, the finish has just been grounded; treat as tacitly grounded and imagined.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m0_finish",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 92
+      }
+    }
+  ]
+}

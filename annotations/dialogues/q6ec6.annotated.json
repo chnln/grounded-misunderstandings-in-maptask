@@ -1,0 +1,1565 @@
+{
+  "dialogue_id": "q6ec6",
+  "landmark_reference_expressions": [
+    {
+      "ref_id_unif": "q6ec6.ref.0",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m2_start@g",
+        "follower": ""
+      },
+      "reason": "Giver asks existence of a start at the top; follower confirms. Both link to the unique START at top on their maps.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m2_start",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a start",
+        "utt_id": 1
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.1",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_start@g",
+        "follower": "m2_start@f"
+      },
+      "reason": "Follower’s “it” refers back to the START. Giver immediately proceeds with instructions, indicating shared grounding of the start.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_start",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it's",
+        "utt_id": 2
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.2",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_diamond_mine@g",
+        "follower": "m2_diamond_mine@f"
+      },
+      "reason": "Follower mentions a diamond mine; giver uses it in the next instruction. Both identify their diamond mine.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a diamond mine",
+        "utt_id": 2
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.3",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_diamond_mine@g",
+        "follower": "m2_diamond_mine@f"
+      },
+      "reason": "Giver instructs relative to “the diamond mine.” Previously introduced and accepted, so follower grounds it while following the move.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the diamond mine",
+        "utt_id": 3
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.4",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_diamond_mine@g",
+        "follower": "m2_diamond_mine@f"
+      },
+      "reason": "Pronoun “it” refers to the diamond mine; follower echoes “underneath it,” showing uptake and grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 5
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.5",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_diamond_mine@g",
+        "follower": "m2_diamond_mine@f"
+      },
+      "reason": "Follower’s “it” continues to denote the diamond mine; giver confirms “you’re underneath it,” grounding remains aligned.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 6
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.6",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_diamond_mine@g",
+        "follower": "m2_diamond_mine@f"
+      },
+      "reason": "Giver repeats “it” (the diamond mine) in confirmation; follower replies “i’m underneath,” maintaining grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_diamond_mine",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 7
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.7",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_diamond_mine@g",
+        "follower": "m2_diamond_mine@f"
+      },
+      "reason": "Follower again says “it,” still the diamond mine; giver replies “yes,” confirming alignment.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 8
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.8",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_diamond_mine@g",
+        "follower": "m2_diamond_mine@f"
+      },
+      "reason": "Follower checks “directly underneath the diamond mine”; giver’s “mmhmm” confirms. Both maps contain a diamond mine at this location.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_diamond_mine",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the diamond mine",
+        "utt_id": 10
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.9",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m2_cactus@f",
+        "follower": "m2_cactus@f"
+      },
+      "reason": "Follower reports reaching a cactus; giver immediately uses it to instruct. Cactus exists only on follower’s map, so giver grounds it as an imagined landmark on the follower map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_cactus",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a cactus",
+        "utt_id": 12
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.10",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_cactus@f",
+        "follower": "m2_cactus@f"
+      },
+      "reason": "Giver refers back to the cactus to instruct avoidance; follower acknowledges and acts. Grounded to the follower’s cactus; not imagined relative to speaker (giver) since it’s only on addressee’s map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_cactus",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the cactus",
+        "utt_id": 13
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.11",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_cactus@f",
+        "follower": "m2_cactus@f"
+      },
+      "reason": "Pronoun ‘it’ in giver’s instruction refers to the same cactus; follower acknowledges. Grounded to the cactus on follower map; not imagined for the speaker.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_cactus",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 13
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.12",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m2_cactus@f",
+        "follower": "m2_cactus@f"
+      },
+      "reason": "Follower confirms ‘above it’; giver replies ‘right’, showing uptake. Reference is to the cactus previously introduced; giver grounds it as imagined since cactus is only on follower map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_cactus",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 14
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.13",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m2_cactus@f",
+        "follower": "m2_cactus@f"
+      },
+      "reason": "Follower states ‘I’ve gone above the cactus’. Even without immediate reply, it reuses the already grounded cactus; thus tacitly grounded. Imagined for giver because cactus exists only on follower’s map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_cactus",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the cactus",
+        "utt_id": 14
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.14",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rift_valley@g",
+        "follower": "m2_rift_valley@f"
+      },
+      "reason": "Follower reports “a rift valley”; giver immediately uses it to guide movement. Both maps contain a rift valley at the top-right, so the reference is grounded on each side’s rift valley.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rift_valley",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a rift valley",
+        "utt_id": 16
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.15",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rift_valley@g",
+        "follower": "m2_rift_valley@f"
+      },
+      "reason": "Giver instructs “to the left of the rift valley.” Follower replies “okay,” showing uptake. This reuses the already mentioned landmark, grounded on each map’s rift valley.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rift_valley",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rift valley",
+        "utt_id": 17
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.16",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rift_valley@g",
+        "follower": "m2_rift_valley@f"
+      },
+      "reason": "Giver: “you’re halfway along the rift valley”; follower acknowledges “right.” It is a continued reference to the same grounded landmark on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rift_valley",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rift valley",
+        "utt_id": 21
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.17",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m2_rocks@g",
+        "follower": ""
+      },
+      "reason": "G asks “have you got any rocks”; F replies “yeah.” This checks existence. Both maps have a unique Rocks landmark, so the reference is grounded to those.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "any rocks",
+        "utt_id": 23
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.18",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rift_valley@g",
+        "follower": "m2_rift_valley@f"
+      },
+      "reason": "F says “centre of the rift valley”; G responds “yeah … and you end up,” indicating uptake. Rift valley had been previously discussed; both link to the same landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rift_valley",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the rift valley",
+        "utt_id": 24
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.19",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rift_valley@g",
+        "follower": "m2_rift_valley@f"
+      },
+      "reason": "F mentions “the rift.” Although G doesn’t explicitly acknowledge, this is a reuse of the already grounded rift valley reference; treated as tacitly grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rift_valley",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the rift",
+        "utt_id": 26
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.20",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "G instructs “above the rocks”; F immediately talks about being “midway along the rocks,” confirming understanding. Both anchor to the Rocks landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rocks",
+        "utt_id": 27
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.21",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "F says “the rocks …,” and G continues with an instruction using “the rocks,” showing successful uptake and shared grounding on the Rocks landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the rocks",
+        "utt_id": 28
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.22",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "Giver instructs “go to the left of the rocks”; follower immediately acknowledges. Both maps contain Rocks, so the reference is grounded on each map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rocks",
+        "utt_id": 29
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.23",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "Follower echoes “left of the rocks okay.” Giver continues, indicating successful uptake. The shared landmark ‘rocks’ exists on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the rocks",
+        "utt_id": 30
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.24",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "Giver says “so you’re beneath them,” where ‘them’=rocks. Follower replies “I’m above,” showing clear reference to the same rocks.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "them",
+        "utt_id": 31
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.25",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "Follower states position “above” (the rocks). Giver responds with further instruction; referent is mutually understood.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "above",
+        "utt_id": 32
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.26",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "Giver: “go to the left of them … beneath them,” with ‘them’=rocks. Follower questions the geometry, not the referent, so grounding holds.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "them",
+        "utt_id": 33
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.27",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "Follower asks “how can I … be beneath,” still referring to the rocks. Giver explains the steps; the landmark remains shared and grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "beneath",
+        "utt_id": 34
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.28",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "Follower: “and then go underneath them,” clearly about the rocks. Giver corrects the action but not the referent; grounding persists.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "them",
+        "utt_id": 36
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.29",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "Giver reiterates “so you’re beneath them” (rocks). Follower acknowledges “okay fine,” indicating successful grounding on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "them",
+        "utt_id": 37
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.30",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m2_white_water@g",
+        "follower": ""
+      },
+      "reason": "G asks existence of white water; F replies “yeah”. Treated as existence check; grounded to F’s ‘rapids’, the counterpart of G’s white water.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m2_white_water",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "some white water",
+        "utt_id": 41
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.31",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_rocks@g",
+        "follower": "m2_rocks@f"
+      },
+      "reason": "Instruction uses ‘the rocks’; these had been discussed earlier and F acknowledges “okay”, so grounded to the rocks on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_rocks",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the rocks",
+        "utt_id": 45
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.32",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_white_water@g",
+        "follower": "m2_rapids@f"
+      },
+      "reason": "Refers to ‘the white water’ in position instruction; F says “okay”. Previously confirmed; grounded to F’s ‘rapids’ (lexical mismatch).",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_white_water",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the white water",
+        "utt_id": 45
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.33",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_white_water@g",
+        "follower": "m2_rapids@f"
+      },
+      "reason": "Further instruction referencing ‘the white water’; F replies “fine”. Already established; grounded to F’s rapids corresponding to G’s white water.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_white_water",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the white water",
+        "utt_id": 47
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.34",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_white_water@g",
+        "follower": "m2_rapids@f"
+      },
+      "reason": "G asks about what is under white water; F immediately answers. The anchor “white water” is already established and F links it to their rapids.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_white_water",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "white water",
+        "utt_id": 51
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.35",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": false,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m2_manned_fort@f"
+      },
+      "reason": "F identifies “a manned fort.” G acknowledges and refers back with “that.” The fort exists only on F’s map, so G cannot ground it on their map.",
+      "extra": {
+        "status": "pending",
+        "subtype": "ungrounded"
+      },
+      "info": {
+        "concept_id": "m2_manned_fort",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "a manned fort",
+        "utt_id": 52
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.36",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_manned_fort@f",
+        "follower": "m2_manned_fort@f"
+      },
+      "reason": "G says “go underneath that,” clearly referring to F’s manned fort. F’s follow-up question shows uptake; the RE is grounded to the fort on F’s map.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_manned_fort",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "that",
+        "utt_id": 53
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.37",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_manned_fort@f",
+        "follower": "m2_manned_fort@f"
+      },
+      "reason": "G continues with “underneath it,” still the manned fort. F asks for left/right, confirming understanding and grounding on the fort.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_manned_fort",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 53
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.38",
+      "is_quantificational": false,
+      "is_specified": false,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "",
+        "follower": "m2_manned_fort@f"
+      },
+      "reason": "F reports position “underneath the manned fort,” but G gives no response in the provided context; thus no evidence of uptake or grounding.",
+      "extra": {
+        "status": "pending",
+        "subtype": "unspecified"
+      },
+      "info": {
+        "concept_id": "m2_manned_fort",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the manned fort",
+        "utt_id": 56
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.39",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m2_outlaws_hideout@g",
+        "follower": ""
+      },
+      "reason": "Giver asks existence of an outlaws’ hideout; follower confirms and proceeds to describe its position. Unique on both maps, so grounded.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m2_outlaws_hideout",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "an outlaws' hideout",
+        "utt_id": 57
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.40",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_outlaws_hideout@g",
+        "follower": "m2_outlaws_hideout@f"
+      },
+      "reason": "Follower says “it’s …” referring to the outlaws’ hideout; giver completes the description (“right and up”). Clear mutual grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_outlaws_hideout",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it's",
+        "utt_id": 58
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.41",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_outlaws_hideout@g",
+        "follower": "m2_outlaws_hideout@f"
+      },
+      "reason": "Giver continues about the same hideout (“right … and up”); follower acknowledges and elaborates, so the referent is grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_outlaws_hideout",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "right",
+        "utt_id": 59
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.42",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": true,
+        "giver": "m2_manned_fort@f",
+        "follower": "m2_manned_fort@f"
+      },
+      "reason": "Follower locates the hideout relative to the manned fort; giver accepts and instructs next. The fort exists only on follower’s map, hence imagined-from-speaker side.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_manned_fort",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the manned fort",
+        "utt_id": 60
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.43",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_outlaws_hideout@g",
+        "follower": "m2_outlaws_hideout@f"
+      },
+      "reason": "Giver says move diagonally up to “that” (the outlaws’ hideout). Follower echoes “diagonal line,” indicating uptake; previously established referent.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_outlaws_hideout",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "that",
+        "utt_id": 61
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.44",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_manned_fort@f",
+        "follower": "m2_manned_fort@f"
+      },
+      "reason": "Giver clarifies path “from the manned fort.” Follower immediately queries for precise relation, showing grounding. The fort is the follower-only landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_manned_fort",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the manned fort",
+        "utt_id": 63
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.45",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_outlaws_hideout@g",
+        "follower": "m2_outlaws_hideout@f"
+      },
+      "reason": "Continuation of clarification: “to the outlaws’ hideout.” Follower’s subsequent question about relative position shows understanding and grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_outlaws_hideout",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the outlaws' hideout",
+        "utt_id": 63
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.46",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_outlaws_hideout@g",
+        "follower": "m2_outlaws_hideout@f"
+      },
+      "reason": "Giver instructs “to underneath the outlaws’ hideout”; follower acknowledges “fine.” Shared, specific landmark, so grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_outlaws_hideout",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the outlaws' hideout",
+        "utt_id": 65
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.47",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_noose@g",
+        "follower": "m2_noose@f"
+      },
+      "reason": "Giver instructs to reach “the noose”; follower immediately confirms “got the noose,” indicating successful grounding on each map’s noose.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_noose",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the noose",
+        "utt_id": 69
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.48",
+      "is_quantificational": true,
+      "is_specified": null,
+      "interpretations": {
+        "is_accommodated": null,
+        "is_grounded": null,
+        "is_imagined": null,
+        "giver": "m2_noose@g",
+        "follower": ""
+      },
+      "reason": "Giver asks existence-check “got a noose”; follower replies “got the noose,” confirming presence and linking it to the specific noose.",
+      "extra": {
+        "status": "pending",
+        "subtype": "quantificational"
+      },
+      "info": {
+        "concept_id": "m2_noose",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "a noose",
+        "utt_id": 69
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.49",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_noose@g",
+        "follower": "m2_noose@f"
+      },
+      "reason": "Follower states “got the noose”; giver acknowledges. The reference is clearly to the unique noose on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_noose",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the noose",
+        "utt_id": 70
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.50",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_noose@g",
+        "follower": "m2_noose@f"
+      },
+      "reason": "Giver repeats “got noose” right after follower confirmed it (utt.70). Shared landmark already grounded; repetition signals acknowledgment without repair.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_noose",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "noose",
+        "utt_id": 71
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.51",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_noose@g",
+        "follower": "m2_noose@f"
+      },
+      "reason": "Second immediate repetition “got noose”; same grounded landmark as in the previous turn, no repair requested.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_noose",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "noose",
+        "utt_id": 71
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.52",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_noose@g",
+        "follower": "m2_noose@f"
+      },
+      "reason": "Instruction “from the noose go left ...”. Follower immediately asks “underneath the noose or above it?” linking to the same noose.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_noose",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the noose",
+        "utt_id": 71
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.53",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_noose@g",
+        "follower": "m2_noose@f"
+      },
+      "reason": "Follower asks “underneath the noose ...”. Giver answers specifying “underneath the noose” (utt.73), confirming the referent.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_noose",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the noose",
+        "utt_id": 72
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.54",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_noose@g",
+        "follower": "m2_noose@f"
+      },
+      "reason": "Follower continues “or above it”, with ‘it’ = the noose; giver responds choosing “underneath,” showing successful grounding.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_noose",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 72
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.55",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_noose@g",
+        "follower": "m2_noose@f"
+      },
+      "reason": "Giver replies “underneath the noose”; follower acknowledges “underneath” (utt.74), so the reference is grounded.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_noose",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the noose",
+        "utt_id": 73
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.56",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_saloon_bar@g",
+        "follower": "m2_saloon_bar@f"
+      },
+      "reason": "Instruction to reach “the saloon bar”. Follower says “good” and immediately asks about position relative to the saloon, indicating the landmark is located.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_saloon_bar",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the saloon bar",
+        "utt_id": 75
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.57",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_saloon_bar@g",
+        "follower": "m2_saloon_bar@f"
+      },
+      "reason": "Follower asks “above the saloon”; giver answers “above to start with,” confirming shared reference to the saloon bar.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_saloon_bar",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the saloon",
+        "utt_id": 76
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.58",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_saloon_bar@g",
+        "follower": "m2_saloon_bar@f"
+      },
+      "reason": "Follower alternative “below it” (it = saloon bar); giver selects “above,” showing understanding of the same landmark.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_saloon_bar",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "it",
+        "utt_id": 76
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.59",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_saloon_bar@g",
+        "follower": "m2_saloon_bar@f"
+      },
+      "reason": "Follower asks about entering the saloon bar immediately after both established its location; giver answers “no.” The reference is reused and clearly understood, linking to the saloon bar on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_saloon_bar",
+        "speaker": "follower",
+        "addressee": "giver",
+        "expression": "the saloon bar",
+        "utt_id": 78
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.60",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_saloon_bar@g",
+        "follower": "m2_saloon_bar@f"
+      },
+      "reason": "The giver instructs “on the right-hand side of the saloon bar.” The saloon bar was already located earlier and the follower replies “okay,” showing successful grounding on their saloon bar.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_saloon_bar",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "the saloon bar",
+        "utt_id": 85
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.61",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_saloon_bar@g",
+        "follower": "m2_saloon_bar@f"
+      },
+      "reason": "Pronoun “it” clearly refers to the previously grounded saloon bar in the same instruction. The follower’s “okay” indicates successful accommodation and grounding on their saloon bar.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_saloon_bar",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 85
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.62",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_saloon_bar@g",
+        "follower": "m2_saloon_bar@f"
+      },
+      "reason": "Pronoun “it” continues the already established landmark “saloon bar.” The follower replies “okay,” indicating understanding and execution. The saloon bar exists on both maps, so the reference is grounded and not imagined.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_saloon_bar",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "it",
+        "utt_id": 87
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.63",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_saloon_bar@g",
+        "follower": "m2_saloon_bar@f"
+      },
+      "reason": "They have been navigating by the saloon bar since utts.75–88. Giver mentions its edge; follower acknowledges (utts.90,92). The reference is clearly to the saloon bar on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_saloon_bar",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "saloon bar",
+        "utt_id": 91
+      }
+    },
+    {
+      "ref_id_unif": "q6ec6.ref.64",
+      "is_quantificational": false,
+      "is_specified": true,
+      "interpretations": {
+        "is_accommodated": true,
+        "is_grounded": true,
+        "is_imagined": false,
+        "giver": "m2_saloon_bar@g",
+        "follower": "m2_saloon_bar@f"
+      },
+      "reason": "Within the same instruction, the giver says “top of the saloon bar”; follower responds “fine” (utt.92). The saloon bar was already jointly established earlier, so the reference is grounded on both maps.",
+      "extra": {
+        "status": "aligned",
+        "subtype": "grounded"
+      },
+      "info": {
+        "concept_id": "m2_saloon_bar",
+        "speaker": "giver",
+        "addressee": "follower",
+        "expression": "saloon bar",
+        "utt_id": 91
+      }
+    }
+  ]
+}
