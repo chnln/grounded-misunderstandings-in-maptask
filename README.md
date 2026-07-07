@@ -7,7 +7,7 @@
 
 This repository is the public release of annotation data and prompt materials for the above paper. We introduce a perspectivist annotation scheme for the [HCRC MapTask corpus](https://groups.inf.ed.ac.uk/maptask/) that captures both speaker-intended and addressee-interpreted landmarks for each reference expression, enabling quantitative study of misunderstanding dynamics in collaborative dialogue.
 
-**Key numbers:** 16 pairs of maps · 128 dialogues · 13,077 annotated reference expressions (REs) · 5 hierarchical attributes and 2 grounded landmark IDs per RE · 3 human-verified dialogues (504 REs)
+**Key numbers:** 16 pairs of maps · 128 dialogues · 13,077 annotated reference expressions (REs) · 5 hierarchical attributes and 2 participant interpretation IDs per RE · 3 human-verified dialogues (504 REs)
 
 > **Note on transcript text.** This release ships our **annotations, structure, short RE
 > strings, timing/pointer metadata, and model-generated annotation reasons** — it does **not**
