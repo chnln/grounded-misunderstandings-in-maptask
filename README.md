@@ -9,9 +9,11 @@ This repository is the public release of annotation data and prompt materials fo
 
 **Key numbers:** 16 pairs of maps · 128 dialogues · 13,077 annotated reference expressions (REs) · 5 hierarchical attributes and 2 grounded landmark IDs per RE · 3 human-verified dialogues (504 REs)
 
-> **Note on transcript text.** This release ships our **annotations, structure, and short RE
-> strings only** — it does **not** redistribute HCRC MapTask transcript text, whose license
-> forbids onward distribution. To obtain the RE-marked transcripts, run
+> **Note on transcript text.** This release ships our **annotations, structure, short RE
+> strings, timing/pointer metadata, and model-generated annotation reasons** — it does **not**
+> redistribute full HCRC MapTask transcript text, whose license forbids onward distribution.
+> The `reason` field may contain short quoted or paraphrased dialogue evidence, but not full
+> transcript context. To obtain the RE-marked transcripts, run
 > [`scripts/reconstruct_transcripts.py`](#reconstructing-the-marked-transcripts) against your
 > own copy of the MapTask corpus.
 >
@@ -33,6 +35,7 @@ annotations/
     lexical_variant_landmark_info.json   <- 10 lexical variant pairs
     multiplicity_landmark_position.json  <- 16 multiplicity landmarks with positions
     map_trans_mapping.txt            <- map-to-dialogue mapping (16 maps x 8 dialogues)
+    dialogue_map_images.csv          <- dialogue-to-map image filename mapping
 reference_expressions/               <- 128 RE-extraction JSONs (timed_unit_ids etc.; used by reconstruction)
 scripts/
   reconstruct_transcripts.py         <- rebuilds the RE-marked transcripts from your MapTask copy
@@ -225,7 +228,20 @@ Ordinals: `0` = lower/bottom instance, `1` = upper/top instance.
 
 ### `map_trans_mapping.txt`
 
-Maps **map indices** (0–15, corresponding to map IDs m0–m15) to the **8 dialogue IDs** that use each map. Space-separated, one line per map. For example, line `9 q1ec2 q1nc2 q1ec8 q1nc8 q5ec2 q5nc2 q5ec8 q5nc8` means dialogues q1ec2, q1nc2, etc. all use map m9.
+Maps the numeric suffix of each **map ID** (`m0`–`m15`) to the **8 dialogue IDs** that use that map. Space-separated, one line per map. For example, line `9 q1ec2 q1nc2 q1ec8 q1nc8 q5ec2 q5nc2 q5ec8 q5nc8` means dialogues q1ec2, q1nc2, etc. all use map `m9`.
+
+### `dialogue_map_images.csv`
+
+Maps each dialogue to the expected original MapTask map image filenames:
+
+| Column | Description |
+|--------|-------------|
+| `dialogue_id` | Dialogue identifier, e.g. `q1ec2` |
+| `map_id` | Map pair identifier, e.g. `m9` |
+| `giver_map_filename` | Expected giver map filename, e.g. `map9g.png` |
+| `follower_map_filename` | Expected follower map filename, e.g. `map9f.png` |
+
+Map images themselves are **not** redistributed in this release. Obtain them from your own HCRC MapTask corpus copy; for map ID `m9`, the expected giver and follower files are `map9g.png` and `map9f.png`.
 
 > [!NOTE]
 > All the above supporting files are processed from the original HCRC MapTask corpus by the paper authors.
@@ -349,4 +365,4 @@ Preprint: [arXiv:2511.03718](https://arxiv.org/abs/2511.03718).
 
 ## License
 
-All materials in this release are provided under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](LICENSE) for details.
+Our annotations, prompt templates, schemas, derived metadata, map-image filename correspondence, and reconstruction code are provided under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](LICENSE) for details. Full HCRC MapTask transcript text and map images are not included and remain under the original corpus's terms.

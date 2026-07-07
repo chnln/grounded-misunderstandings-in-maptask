@@ -198,6 +198,15 @@ def load_map_lookup(mapping_path: Path) -> Dict[str, str]:
     return lookup
 
 
+def default_map_mapping_path(repo_root: Path) -> Path:
+    # The HF release flattens metadata under assets/; the GitHub release keeps
+    # assets under annotations/. Prefer the HF layout, then fall back to GitHub.
+    hf_layout = repo_root / "assets/map_trans_mapping.txt"
+    if hf_layout.exists():
+        return hf_layout
+    return repo_root / "annotations/assets/map_trans_mapping.txt"
+
+
 def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     here = Path(__file__).resolve().parent.parent
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -205,7 +214,7 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
                    help="dir with raw <dialogue>.{g,f}.timed-units.xml (your MapTask download)")
     p.add_argument("--re-dir", default=str(here / "reference_expressions"),
                    help="reference-expression JSON dir shipped with this dataset")
-    p.add_argument("--map-mapping", default=str(here / "annotations/assets/map_trans_mapping.txt"),
+    p.add_argument("--map-mapping", default=str(default_map_mapping_path(here)),
                    help="map_trans_mapping.txt (shipped asset) for the Map ID header")
     p.add_argument("--out-dir", required=True, help="output dir for reconstructed *_all_refs.txt")
     p.add_argument("--dialogue-ids", nargs="*", help="subset of dialogue IDs (default: all found)")
