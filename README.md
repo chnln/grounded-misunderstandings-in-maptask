@@ -1,11 +1,11 @@
-# Grounded Misunderstandings in Asymmetric Dialogue
+# GMMT: Grounded Misunderstandings in MapTask
 
 > **Grounded Misunderstandings in Asymmetric Dialogue: A Perspectivist Annotation Scheme for MapTask**  
 > Nan Li, Albert Gatt, Massimo Poesio  
 > ICS-NLP Group, Utrecht University  
 > *LREC 2026*
 
-This repository is the public release of annotation data and prompt materials for the above paper. We introduce a perspectivist annotation scheme for the [HCRC MapTask corpus](https://groups.inf.ed.ac.uk/maptask/) that captures both speaker-intended and addressee-interpreted landmarks for each reference expression, enabling quantitative study of misunderstanding dynamics in collaborative dialogue.
+This repository releases the Grounded Misunderstandings in MapTask (GMMT) dataset: annotation data and prompt materials for the above paper. GMMT introduces a perspectivist annotation scheme for the [HCRC MapTask corpus](https://groups.inf.ed.ac.uk/maptask/) that captures both speaker-intended and addressee-interpreted landmarks for each reference expression, enabling quantitative study of misunderstanding dynamics in collaborative dialogue.
 
 **Key numbers:** 16 pairs of maps · 128 dialogues · 13,077 annotated reference expressions (REs) · 5 hierarchical attributes and 2 participant interpretation IDs per RE · 3 human-verified dialogues (504 REs)
 
@@ -17,7 +17,7 @@ This repository is the public release of annotation data and prompt materials fo
 > [`scripts/reconstruct_transcripts.py`](#reconstructing-the-marked-transcripts) against your
 > own copy of the MapTask corpus.
 >
-> A loadable version (Parquet + Dataset Viewer) is on the Hugging Face Hub:
+> The GMMT dataset is also available as a loadable Hugging Face dataset (Parquet + Dataset Viewer):
 > [`chnln/grounded-misunderstandings-in-maptask`](https://huggingface.co/datasets/chnln/grounded-misunderstandings-in-maptask).
 
 ## Repository Structure
@@ -345,6 +345,8 @@ This release contains **derived annotations only**. The original HCRC MapTask co
 To fully reproduce the pipeline from scratch (constructing prompt bundles from raw transcripts), download the timed-unit transcriptions, reference expression annotations, and move/transaction annotations from the link above.
 
 ## Citation
+
+If you use the GMMT dataset, please cite:
 
 ```bibtex
 @inproceedings{li-etal-2026-grounded,
