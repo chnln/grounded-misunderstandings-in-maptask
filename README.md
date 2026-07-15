@@ -349,17 +349,17 @@ To fully reproduce the pipeline from scratch (constructing prompt bundles from r
 If you use the GMMT dataset, please cite:
 
 ```bibtex
-@inproceedings{li-etal-2026-grounded,
-  title     = {Grounded Misunderstandings in Asymmetric Dialogue: A Perspectivist Annotation Scheme for MapTask},
-  author    = {Li, Nan and Gatt, Albert and Poesio, Massimo},
+@inproceedings{li2026grounded,
+  title = {Grounded Misunderstandings in Asymmetric Dialogue: A Perspectivist Annotation Scheme for MapTask},
+  author = {Li, Nan and Gatt, Albert and Poesio, Massimo},
   booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
-  month     = {May},
-  year      = {2026},
-  pages     = {4988--5001},
-  address   = {Palma, Mallorca, Spain},
+  month = {May},
+  year = {2026},
+  pages = {4988--5001},
+  address = {Palma, Mallorca, Spain},
   publisher = {European Language Resources Association (ELRA)},
-  editor    = {Piperidis, Stelios and Bel, N{\'u}ria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
-  doi       = {10.63317/59anbt78wyj7}
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/59anbt78wyj7}
 }
 ```
 
