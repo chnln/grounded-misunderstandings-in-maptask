@@ -359,11 +359,13 @@ If you use the GMMT dataset, please cite:
   address = {Palma, Mallorca, Spain},
   publisher = {European Language Resources Association (ELRA)},
   editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  url = {https://lrec.elra.info/lrec2026-main-392},
   doi = {10.63317/59anbt78wyj7}
 }
 ```
 
-Preprint: [arXiv:2511.03718](https://arxiv.org/abs/2511.03718).
+Paper: [LREC Proceedings](https://lrec.elra.info/lrec2026-main-392) ·
+[arXiv preprint](https://arxiv.org/abs/2511.03718).
 
 ## License
 
