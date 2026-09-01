@@ -11,9 +11,12 @@ This repository releases the Grounded Misunderstandings in MapTask (GMMT) datase
 
 > **Note on transcript text.** This release ships our **annotations, structure, short RE
 > strings, timing/pointer metadata, and model-generated annotation reasons** — it does **not**
-> redistribute full HCRC MapTask transcript text, whose license forbids onward distribution.
-> The `reason` field may contain short quoted or paraphrased dialogue evidence, but not full
-> transcript context. To obtain the RE-marked transcripts, run
+> redistribute full HCRC MapTask transcript text. The [official HCRC v2.1 download
+> page](https://groups.inf.ed.ac.uk/maptask/maptasknxt.html) states that its downloads are
+> licensed under CC BY 4.0 (accessed 1 September 2026); the omission here keeps this release
+> focused on GMMT's derived materials rather than duplicating the source corpus. The `reason`
+> field may contain short quoted or paraphrased dialogue evidence, but not full transcript
+> context. To obtain the RE-marked transcripts, run
 > [`scripts/reconstruct_transcripts.py`](#reconstructing-the-marked-transcripts) against your
 > own copy of the MapTask corpus.
 >
@@ -249,9 +252,11 @@ Map images themselves are **not** redistributed in this release. Obtain them fro
 ## Reconstructing the marked transcripts
 
 The RE-marked transcripts (one per dialogue, with REs delimited inline by `<<...>>` tags) are
-**not** shipped here, because they contain HCRC MapTask transcript text, whose license forbids
-onward redistribution. Instead, `scripts/reconstruct_transcripts.py` regenerates them **byte-for-byte**
-(verified on all 128 dialogues) from your own copy of the corpus:
+**not** shipped here. The official HCRC v2.1 download page states that its downloads are
+[licensed under CC BY 4.0](https://groups.inf.ed.ac.uk/maptask/maptasknxt.html) (accessed
+1 September 2026); this repository nevertheless avoids duplicating the source corpus.
+Instead, `scripts/reconstruct_transcripts.py` regenerates the marked transcripts
+**byte-for-byte** (verified on all 128 dialogues) from your own copy of the corpus:
 
 1. Download the **HCRC Map Task Corpus v2.1** from
    <https://groups.inf.ed.ac.uk/maptask/maptasknxt.html> and unpack it. The per-side timed-units
@@ -369,4 +374,4 @@ Paper: [LREC Proceedings](https://lrec.elra.info/lrec2026-main-392) ·
 
 ## License
 
-Our annotations, prompt templates, schemas, derived metadata, map-image filename correspondence, and reconstruction code are provided under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](LICENSE) for details. Full HCRC MapTask transcript text and map images are not included and remain under the original corpus's terms.
+Our annotations, prompt templates, schemas, derived metadata, map-image filename correspondence, and reconstruction code are provided under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](LICENSE) for details. Full HCRC MapTask transcript text and map images are not included. The [official HCRC v2.1 download page](https://groups.inf.ed.ac.uk/maptask/maptasknxt.html) states that its downloads are licensed under CC BY 4.0 (accessed 1 September 2026); HCRC materials remain attributed to their original source and are not relicensed by GMMT.

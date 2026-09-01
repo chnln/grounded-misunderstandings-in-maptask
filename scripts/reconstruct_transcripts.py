@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Reconstruct the RE-marked MapTask transcripts (`*_all_refs.txt`) locally.
 
-The public release does NOT redistribute MapTask transcript text (the HCRC Map
-Task Corpus forbids onward distribution of corpus materials). Instead, this
+The public release does NOT redistribute MapTask transcript text. The official
+HCRC v2.1 download page states that its downloads are licensed under CC BY 4.0;
+this release nevertheless avoids duplicating the source corpus. Instead, this
 self-contained script rebuilds the marked transcripts from:
 
   1. YOUR own copy of the raw MapTask timed-units XML (download separately, see
