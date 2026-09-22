@@ -5,6 +5,11 @@
 > ICS-NLP Group, Utrecht University  
 > *LREC 2026*
 
+[![arXiv](https://img.shields.io/badge/arXiv-2511.03718-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.03718)
+[![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face%20Paper-FFD21E)](https://huggingface.co/papers/2511.03718)
+[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face%20Dataset-FFD21E)](https://huggingface.co/datasets/chnln/grounded-misunderstandings-in-maptask)
+[![Demo: MapTask Explorer](https://img.shields.io/badge/Demo-MapTask%20Explorer-2563EB)](https://chnln.github.io/maptask-vis/explorer.html)
+
 This repository releases the Grounded Misunderstandings in MapTask (GMMT) dataset: annotation data and prompt materials for the above paper. GMMT introduces a perspectivist annotation scheme for the [HCRC MapTask corpus](https://groups.inf.ed.ac.uk/maptask/) that captures both speaker-intended and addressee-interpreted landmarks for each reference expression, enabling quantitative study of misunderstanding dynamics in collaborative dialogue.
 
 **Key numbers:** 16 pairs of maps · 128 dialogues · 13,077 annotated reference expressions (REs) · 5 hierarchical attributes and 2 participant interpretation IDs per RE · 3 human-verified dialogues (504 REs)
